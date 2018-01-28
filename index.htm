@@ -5,6 +5,20 @@
     <title>anees</title>
 </head>
 <body>
-    <h1>Hello, World!</h1>   
+    <h1>Hello, World!</h1> 
+    <button type="submit" onclick="UserAction()">Search</button>
 </body>
+    
+<script type="text/javascript" language="javascript">
+    function UserAction() {
+    var root = 'https://jsonplaceholder.typicode.com';
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", root + "/posts/1", true);
+    xhttp.setRequestHeader("Content-type", "application/json");
+    xhttp.send();
+    var response = JSON.parse(xhttp.responseText);
+    console.log(response);
+}
+</script>
+        
 </html>
