@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>Hello, World!</h1> 
-    <button type="submit" onclick="UserAction()">Search</button>
+    <button type="submit" onclick="UserAction()">Search-1</button>
 </body>
     
 <script type="text/javascript" language="javascript">
@@ -16,7 +16,7 @@
     xhttp.open("GET", root + "/posts/1", true);
     xhttp.setRequestHeader("Content-type", "application/json");
     xhttp.send();
-    var response = JSON.parse(xhttp.responseText);
+    var response = xhttp.responseText;
     console.log(response);
 }
 </script>
