@@ -6,7 +6,7 @@
     <description>Recent content in Posts on ^^</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Oct 2018 11:36:55 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 14 May 2017 11:36:55 +0100</lastBuildDate>
     
 	<atom:link href="https://aneesahammed.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,11 @@
     <item>
       <title>Hello World</title>
       <link>https://aneesahammed.github.io/posts/hello-world/</link>
-      <pubDate>Sun, 14 Oct 2018 11:36:55 +0100</pubDate>
+      <pubDate>Sun, 14 May 2017 11:36:55 +0100</pubDate>
       
       <guid>https://aneesahammed.github.io/posts/hello-world/</guid>
-      <description></description>
+      <description>&lt;p&gt;Hello, World!! I have been wanting to start my own blog hosted on github.io for a while now.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

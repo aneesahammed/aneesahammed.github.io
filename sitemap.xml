@@ -4,42 +4,52 @@
   
   <url>
     <loc>https://aneesahammed.github.io/posts/hello-world/</loc>
-    <lastmod>2018-10-14T11:36:55+01:00</lastmod>
+    <lastmod>2017-05-14T11:36:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/about/</loc>
+    <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://aneesahammed.github.io/tags/</loc>
-    <lastmod>2018-10-14T11:36:55+01:00</lastmod>
+    <lastmod>2017-05-14T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aneesahammed.github.io/categories/</loc>
-    <lastmod>2018-10-14T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://aneesahammed.github.io/categories/</loc>
-    <lastmod>2018-10-14T11:36:55+01:00</lastmod>
+    <loc>https://aneesahammed.github.io/categories/development/</loc>
+    <lastmod>2017-05-14T11:36:55+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/categories/hello-world/</loc>
+    <lastmod>2017-05-14T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aneesahammed.github.io/posts/</loc>
-    <lastmod>2018-10-14T11:36:55+01:00</lastmod>
+    <lastmod>2017-05-14T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aneesahammed.github.io/tags/</loc>
-    <lastmod>2018-10-14T11:36:55+01:00</lastmod>
+    <lastmod>2017-05-14T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aneesahammed.github.io/</loc>
-    <lastmod>2018-10-14T11:36:55+01:00</lastmod>
+    <lastmod>2017-05-14T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
