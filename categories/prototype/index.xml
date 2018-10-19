@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prototype on ^^</title>
+    <link>https://aneesahammed.github.io/categories/prototype/</link>
+    <description>Recent content in Prototype on ^^</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Aug 2017 11:36:55 +0100</lastBuildDate>
+    
+	<atom:link href="https://aneesahammed.github.io/categories/prototype/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rapid Prototyping</title>
+      <link>https://aneesahammed.github.io/posts/rapid-prototype/</link>
+      <pubDate>Sun, 20 Aug 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/rapid-prototype/</guid>
+      <description>This is to document my last remote consulting experience for a Mobile Application.
+In order to get clarity in design, we often go through a prototype phase. This is an important phase as this allows you to refine the user experience.
+Although there are a huge number of tools out there that are dedicated solely to prototyping. I&amp;rsquo;ve seen effective prototypes made with PowerPoint, Keynote, Acrobat, and Word. If you&amp;rsquo;re a designer and have skills in programs like high-end graphic software like Sketch.</description>
+    </item>
+    
+    <item>
+      <title>Working with Microsoft</title>
+      <link>https://aneesahammed.github.io/posts/microsoft/</link>
+      <pubDate>Thu, 10 Aug 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/microsoft/</guid>
+      <description>A couple of months back I have been invited to work with Microsoft Middle East, Dubai&amp;nbsp;to port our glimpses&amp;nbsp; win32 app into Microsoft Store.
+It was really important for us to be able to take advantage of the best that windows 10 has to offer without rebuilding the glimpses app.
+Desktop Bridge provided the perfect solution for us to be able to keep all the work we’ve done before and embrace future, it is an obvious choice for us to give a more trustworthy source to users.</description>
+    </item>
+    
+  </channel>
+</rss>

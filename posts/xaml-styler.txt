@@ -1,0 +1,10 @@
++++
+title = "XAML Styler for Visual Studio Mac"
+description = "If you have already worked on WPF or Windows Phone projects, you might have used the [XAML Styler](https://marketplace.visualstudio.com/items?itemName=NicoVermeir.XAMLStyler)"
+date = 2017-06-14T11:36:55+01:00
+tags = [""]
+categories = [
+    "Development",    
+]
+menu = "main"
++++

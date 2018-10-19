@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://aneesahammed.github.io/posts/rapid-prototype/</loc>
+    <lastmod>2017-08-20T11:36:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/posts/xaml-styler/</loc>
+    <lastmod>2017-08-14T11:36:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/posts/microsoft/</loc>
+    <lastmod>2017-08-10T11:36:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/posts/record-android-screen/</loc>
+    <lastmod>2017-06-14T11:36:55+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://aneesahammed.github.io/posts/hello-world/</loc>
     <lastmod>2017-05-14T11:36:55+01:00</lastmod>
   </url>
@@ -14,7 +34,7 @@
   
   <url>
     <loc>https://aneesahammed.github.io/tags/</loc>
-    <lastmod>2017-05-14T11:36:55+01:00</lastmod>
+    <lastmod>2017-08-20T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -24,8 +44,14 @@
   </url>
   
   <url>
+    <loc>https://aneesahammed.github.io/categories/design/</loc>
+    <lastmod>2017-08-20T11:36:55+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://aneesahammed.github.io/categories/development/</loc>
-    <lastmod>2017-05-14T11:36:55+01:00</lastmod>
+    <lastmod>2017-08-20T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,20 +62,38 @@
   </url>
   
   <url>
+    <loc>https://aneesahammed.github.io/categories/mobile/</loc>
+    <lastmod>2017-08-20T11:36:55+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://aneesahammed.github.io/posts/</loc>
-    <lastmod>2017-05-14T11:36:55+01:00</lastmod>
+    <lastmod>2017-08-20T11:36:55+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/categories/prototype/</loc>
+    <lastmod>2017-08-20T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aneesahammed.github.io/tags/</loc>
-    <lastmod>2017-05-14T11:36:55+01:00</lastmod>
+    <lastmod>2017-08-20T11:36:55+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/categories/ux/</loc>
+    <lastmod>2017-08-20T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aneesahammed.github.io/</loc>
-    <lastmod>2017-05-14T11:36:55+01:00</lastmod>
+    <lastmod>2017-08-20T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   

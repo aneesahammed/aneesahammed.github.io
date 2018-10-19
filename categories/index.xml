@@ -11,9 +11,18 @@
     
     
     <item>
+      <title>Design</title>
+      <link>https://aneesahammed.github.io/categories/design/</link>
+      <pubDate>Sun, 20 Aug 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/categories/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Development</title>
       <link>https://aneesahammed.github.io/categories/development/</link>
-      <pubDate>Sun, 14 May 2017 11:36:55 +0100</pubDate>
+      <pubDate>Sun, 20 Aug 2017 11:36:55 +0100</pubDate>
       
       <guid>https://aneesahammed.github.io/categories/development/</guid>
       <description></description>
@@ -25,6 +34,33 @@
       <pubDate>Sun, 14 May 2017 11:36:55 +0100</pubDate>
       
       <guid>https://aneesahammed.github.io/categories/hello-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>https://aneesahammed.github.io/categories/mobile/</link>
+      <pubDate>Sun, 20 Aug 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/categories/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prototype</title>
+      <link>https://aneesahammed.github.io/categories/prototype/</link>
+      <pubDate>Sun, 20 Aug 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/categories/prototype/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ux</title>
+      <link>https://aneesahammed.github.io/categories/ux/</link>
+      <pubDate>Sun, 20 Aug 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/categories/ux/</guid>
       <description></description>
     </item>
     

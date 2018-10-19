@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ^^</title>
-    <link>https://aneesahammed.github.io/posts/</link>
-    <description>Recent content in Posts on ^^</description>
+    <title>Mobile on ^^</title>
+    <link>https://aneesahammed.github.io/categories/mobile/</link>
+    <description>Recent content in Mobile on ^^</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 20 Aug 2017 11:36:55 +0100</lastBuildDate>
     
-	<atom:link href="https://aneesahammed.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aneesahammed.github.io/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>This is to document my last remote consulting experience for a Mobile Application.
 In order to get clarity in design, we often go through a prototype phase. This is an important phase as this allows you to refine the user experience.
 Although there are a huge number of tools out there that are dedicated solely to prototyping. I&amp;rsquo;ve seen effective prototypes made with PowerPoint, Keynote, Acrobat, and Word. If you&amp;rsquo;re a designer and have skills in programs like high-end graphic software like Sketch.</description>
-    </item>
-    
-    <item>
-      <title>XAML Styler for Visual Studio Mac</title>
-      <link>https://aneesahammed.github.io/posts/xaml-styler/</link>
-      <pubDate>Mon, 14 Aug 2017 11:36:55 +0100</pubDate>
-      
-      <guid>https://aneesahammed.github.io/posts/xaml-styler/</guid>
-      <description>If you have already worked on WPF or Windows Phone projects, you might have used the XAML Styler. Which is a visual studio extension for formatting XAML source code, which helps in maintaining better XAML coding style and better XAML readability.
-I have been using this extension for quite some time including my Xamarin Forms projects in Xamarin Studio. Even though “Visual Studio for Mac” was available, I remained with Xamarin Studio as XAML Styler was not supported in VS for MAC.</description>
     </item>
     
     <item>
@@ -52,16 +42,6 @@ Desktop Bridge provided the perfect solution for us to be able to keep all the w
       <description>If you wanted to record a tutorial or wanted to create a demo of your app you&amp;rsquo;d need to capture the screen in real time. Without installing some third-party crappy piece of software this is daunting. So below is one of the easy steps to follow for geeks in you.
 Download the platform-tools from below URL if you don&amp;rsquo;t have Android Studio installed.
 developer.android.com  Connect your Android Phone to your computer.</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://aneesahammed.github.io/posts/hello-world/</link>
-      <pubDate>Sun, 14 May 2017 11:36:55 +0100</pubDate>
-      
-      <guid>https://aneesahammed.github.io/posts/hello-world/</guid>
-      <description>&lt;p&gt;Hello, World!! I have been wanting to start my own blog hosted on github.io for a while now.
-&lt;/p&gt;</description>
     </item>
     
   </channel>
