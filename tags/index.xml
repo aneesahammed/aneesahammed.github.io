@@ -20,5 +20,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Development</title>
+      <link>https://aneesahammed.github.io/tags/development/</link>
+      <pubDate>Mon, 29 Oct 2018 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>https://aneesahammed.github.io/tags/devops/</link>
+      <pubDate>Mon, 29 Oct 2018 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
