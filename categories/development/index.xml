@@ -17,8 +17,8 @@
       <pubDate>Mon, 29 Oct 2018 11:36:55 +0100</pubDate>
       
       <guid>https://aneesahammed.github.io/posts/curl/</guid>
-      <description>As part of my journey as a developer and documenting my learning, I&amp;rsquo;ve been thinking of writing a short post regarding curl, here it is.
-Curl is a command line tool for transferring data to and from a server. it stands for Client URL and was developed by a Swedish developer Daniel Stenberg @bagder.
+      <description>As part of my journey as a developer and decision to document my learning, I&amp;rsquo;ve been thinking of writing a short post regarding curl, here it is.
+Curl is a command line tool for transferring data to and from a server. Curl stands for Client URL and was developed by a Swedish developer Daniel Stenberg @bagder.
 It covers many protocols like HTTP, FTP, IMAP, POP3 &amp;amp; SMTP, It usually comes pre-installed in most of Linux distros and modern versions of OS X.</description>
     </item>
     

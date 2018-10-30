@@ -14,7 +14,7 @@
   
   
   <meta name="twitter:title" content="CURL"/>
-  <meta name="twitter:description" content="Curl is a command line tool for transfering data to and from a server. it stands for **Client URL**"/>
+  <meta name="twitter:description" content="Curl is a command line tool for transfering data to and from a server. it stands for Client URL"/>
   
     <meta name="twitter:site" content="@@aneesahammed"/>
   
@@ -29,7 +29,7 @@
 		
 		<meta name="author" content="anees ahammed">
 		<meta name="description" content="My ramblings, musings and thoughts">
-		<meta name="generator" content="Hugo 0.49.2" />
+		<meta name="generator" content="Hugo 0.46" />
 		<title>CURL &middot; ^^</title>
 		<link rel="shortcut icon" href="https://aneesahammed.github.io/images/favicon.ico">
 		<link rel="stylesheet" href="https://aneesahammed.github.io/css/style.css">
@@ -72,7 +72,7 @@
                     </h1>
                     <h2 class="headline">
                     Oct 29, 2018 11:36
-                    · 368 words
+                    · 369 words
                     · 2 minute read
                       <span class="tags">
                       
@@ -112,21 +112,21 @@
 
 <p><img src="https://curl.haxx.se/logo/curl-logo.svg" alt="image" /></p>
 
-<p>As part of my journey as a developer and documenting my learning,
+<p>As part of my journey as a developer and decision to document my learning,
 I&rsquo;ve been thinking of writing a short post regarding curl, here it is.</p>
 
 <p>Curl is a command line tool for transferring data to and from a server.
-it stands for <strong>Client URL</strong> and was developed by a Swedish developer <strong>Daniel Stenberg</strong> <a href="https://twitter.com/bagder">@bagder</a>.</p>
+Curl stands for <strong>Client URL</strong> and was developed by a Swedish developer <strong>Daniel Stenberg</strong> <a href="https://twitter.com/bagder">@bagder</a>.</p>
 
 <p>It covers many protocols like HTTP, FTP, IMAP, POP3 &amp; SMTP, It usually comes  pre-installed in most of Linux distros and modern versions of OS X. <br>
 If you&rsquo;re using Windows you can either download it from <a href="https://curl.haxx.se">here</a> or you can use <a href="https://git.scm.com">git bash</a></p>
 
-<p>Curl has got ton of options, to see all the different options you can use with curl try the below command</p>
+<p>Curl has got ton of options, to see all the different options you can try the below command</p>
 
 <pre><code>curl --help
 </code></pre>
 
-<p>In this post, we&rsquo;ll working with <a href="https://jsonplaceholder.typicode.com">jsonplaceholder</a>,
+<p>In this post, we&rsquo;ll be working with <a href="https://jsonplaceholder.typicode.com">jsonplaceholder</a>,
 which is basically a fake online REST API that we can use for testing.</p>
 
 <h2 id="get-request">GET Request</h2>
@@ -135,14 +135,14 @@ which is basically a fake online REST API that we can use for testing.</p>
 </code></pre>
 
 <p>if you&rsquo;d like to see header information along with request&rsquo;s response
-use flag <strong>-i</strong></p>
+use flag <strong>&rsquo;-i&rsquo;</strong></p>
 
 <pre><code>curl -i https://jsonplaceholder.typicode.com/posts/3
 </code></pre>
 
 <p><img src="https://user-images.githubusercontent.com/8899419/47688851-1f0dfb00-dbdf-11e8-8e30-1966748a279d.png" alt="image" /></p>
 
-<p>in case if you just want to get only header, use <strong>&ndash;head</strong> or <strong>I</strong> flag</p>
+<p>in case if you just want to get only header, use <strong>&rsquo;&ndash;head&rsquo;</strong> or <strong>&lsquo;I&rsquo;</strong> flag</p>
 
 <pre><code>curl --head https://jsonplaceholder.typicode.com/posts/3
 </code></pre>
@@ -152,7 +152,7 @@ use flag <strong>-i</strong></p>
 
 <p><img src="https://user-images.githubusercontent.com/8899419/47689029-f2a6ae80-dbdf-11e8-8689-952d3ea7431d.png" alt="image" /></p>
 
-<p>Often we wish to ouput the response contents into a file, for this we can use lowercase <strong>o</strong> or <strong>- -output</strong> flag.</p>
+<p>Often we wish to ouput the response contents into a file, for this we can use lowercase <strong>&lsquo;o&rsquo;</strong> or <strong>&rsquo;- -output&rsquo;</strong> flag.</p>
 
 <pre><code>curl -o filename.txt https://jsonplaceholder.typicode.com/posts/3
 </code></pre>
@@ -166,7 +166,7 @@ use flag <strong>-i</strong></p>
 <pre><code>curl -X POST --data &quot;title=foo&amp;body=bar&quot; https://jsonplaceholder.typicode.com/posts
 </code></pre>
 
-<p>-d, &ndash;data : sends the specified data in an POST request</p>
+<p>-d, - -data : sends the specified data in POST request</p>
 
 <p><img src="https://user-images.githubusercontent.com/8899419/47686846-30eaa080-dbd5-11e8-8181-e784ef5a92e3.png" alt="image" /></p>
 
@@ -200,7 +200,7 @@ use flag <strong>-i</strong></p>
 <pre><code>curl -X PUT -d &quot;title=foo&amp;body=bar&quot; https://jsonplaceholder.typicode.com/posts/1
 </code></pre>
 
-<p>if you want to pass your data as regular JSON.</p>
+<p>Anf if you want to pass your data as regular JSON.</p>
 
 <pre><code>curl -X PUT \
   https://jsonplaceholder.typicode.com/posts \
@@ -325,7 +325,7 @@ The below Run in Postman button imports and opens the collection of above <a hre
 
 
   
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
