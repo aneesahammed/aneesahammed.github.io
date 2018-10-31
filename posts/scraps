@@ -1,0 +1,27 @@
+
+
+-----------------------------
+
+## Client server architecture
+Docker is based on client-server architecture with docker-daemon being the server accepting command from docker-client.
+
+Docker-client can be either a command line utility or API call.
+
+![image](https://docs.docker.com/engine/images/architecture.svg)
+
+
+## Docker Daemon
+
+docker-daemon process talks to the linux kernal via library called libcontainer (part of Docker project).
+docker-daemon is often referred to as **Docker Engine** or **Docker Server**
+
+On typical linux installation, all docker-client, docker-daemon and any containers runs on the same host.
+
+## Docker Machine
+
+On Windows/Mac, docker-daemon would run inside a Docker-Machine. <br>
+Which is a light weight **Linux VM**, made specially to run the docker-daemon for Windows/Mac
+
+<!-- Docker for Windows/Mac run as a **native** Windows/Mac app and manages a Linux VM internally. -->
+
+<!-- <img src="https://user-images.githubusercontent.com/8899419/47751956-1672fe80-dc8b-11e8-8f19-a2b7a4a74dee.png"/> -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on ^^</title>
+    <link>https://aneesahammed.github.io/categories/docker/</link>
+    <description>Recent content in Docker on ^^</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 31 Oct 2018 11:36:55 +0100</lastBuildDate>
+    
+	<atom:link href="https://aneesahammed.github.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Play with docker</title>
+      <link>https://aneesahammed.github.io/posts/play-with-docker/</link>
+      <pubDate>Wed, 31 Oct 2018 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/play-with-docker/</guid>
+      <description> PWD This post is about &amp;ldquo;Play with Docker&amp;rdquo; chrome-extension. Play with Docker (PWD) is a simple, interactive and fun playground to learn Docker.
+
+It adds a &amp;ldquo;Try in PWD&amp;rdquo; button on any Docker Hub image page.Here is a short demo of same.
+Demo  </description>
+    </item>
+    
+  </channel>
+</rss>

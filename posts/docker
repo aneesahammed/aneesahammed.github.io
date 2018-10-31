@@ -1,0 +1,51 @@
++++
+title = "DOCKER"
+description = ""
+date = 2018-10-30T11:36:55+01:00
+tags = ["docker",
+		"devOps"
+]
+categories = [
+    "docker",
+    "devOps",
+]
+menu = "main"
++++
+
+ When people say **Docker** they typically means Docker Engine.
+
+## Docker Engine
+Docker Engine is the client-server application with docker-daemon being the server accepting command from docker-client.
+
+![image](https://docs.docker.com/engine/images/architecture.svg)
+
+Docker Engine is made of docker-daemon, REST API that defines interfaces for interacting with docker-daemon & CLI client that talks to docker-daemon through the REST API wrapper.
+
+<img src="https://user-images.githubusercontent.com/8899419/47755468-44aa0b80-dc96-11e8-9cea-e97342c2f3e8.png" style="width:200px;height:200px; align:left">
+
+
+## Docker Machine
+
+Docker Machine is a tool for provisioning and managing hosts running "Docker Engine" on them.
+
+You can use Docker Machine to install "Docker Engine" on local virtual system ex: VirtualBox on Mac/Windows or remote virtual system ex: Cloud providers
+
+![image](https://docs.docker.com/machine/img/provision-use-case.png)
+
+## Docker for Windows/Mac
+Since docker is a technology built around linux containers, for non Linux platforms we need to use some forms of virtualization to run docker.
+
+Docker for Windows/Mac run as a **native** Windows/Mac app and manages a Linux VM internally.
+
+If you're using windows, your Windows version should be 10 or newer
+
+If you're using Mac then you need OSX 10.3 or newer
+
+
+![image](https://user-images.githubusercontent.com/8899419/47756682-0e22bf80-dc9b-11e8-9545-a59c949427c6.png)
+
+
+If you are using older versions of Windows or Mac, they you should [install Docker Toolbox (legacy)](https://docs.docker.com/toolbox/overview/).
+
+
+
