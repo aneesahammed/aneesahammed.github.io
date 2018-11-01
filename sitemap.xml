@@ -65,20 +65,14 @@
   </url>
   
   <url>
-    <loc>https://aneesahammed.github.io/tags/development/</loc>
-    <lastmod>2018-10-29T11:36:55+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://aneesahammed.github.io/categories/development/</loc>
     <lastmod>2018-10-29T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://aneesahammed.github.io/tags/devops/</loc>
-    <lastmod>2018-10-31T11:36:55+01:00</lastmod>
+    <loc>https://aneesahammed.github.io/tags/development/</loc>
+    <lastmod>2018-10-29T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -89,13 +83,19 @@
   </url>
   
   <url>
-    <loc>https://aneesahammed.github.io/tags/docker/</loc>
+    <loc>https://aneesahammed.github.io/tags/devops/</loc>
     <lastmod>2018-10-31T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aneesahammed.github.io/categories/docker/</loc>
+    <lastmod>2018-10-31T11:36:55+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/tags/docker/</loc>
     <lastmod>2018-10-31T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
