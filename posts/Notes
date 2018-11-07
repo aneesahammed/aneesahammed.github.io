@@ -1,0 +1,94 @@
+Notes
+
+
+Docker Compose & Docker Swarm Mode
+In order to coordinate 10s or 100s of containers and the network connections amongst them and to ensure availablity and ability to scale.
+
+Docker Compose
+-used to control multiple containers on a single system.
+-which image to use
+-how many instances
+-network connections
+
+
+Docker Swarm Mode
+Swarm Mode tells Docker that we'll be running many docker engines.
+and wanted to coordinate operations across all of them.
+-define and maintain hight availability levels
+-scaling
+-load balancing.
+-most prod swarms have at least 3 "manager" nodes & many "worker" nodes.
+-three mgrs is the minimum to have a true high-availability cluster.
+
+
+First thing
+#>tell Docker hosts that we want to use Docker Swarm Mode.
+
+NODE:1 (Manager)
+docker swarm init --advertise-addr $(hostname -i)
+
+- to add a worker to this swarm
+$ docker swarm join --token SWMTKN-1-erb 192.168.0.27:2377
+
+- to add a manager to swarm
+$ docker swarm join-token manager
+
+NODE:2 (Worker)
+$ docker swarm join --token SWMTKN-1-150w3ao6f92avvijmn4ejhz73g7o2s5zy6j9jxo0yp79aaftna-1xfbb7n8gbqj567538dv8k34u 192.168.0.27:2377
+
+
+- Check the number of nodes in the swarm.
+$ docker node ls
+/* you cannot run this command in worker node */
+
+If your Leader node goes down for some reason, the other manager nodes will elect a new leader; just one reason why you would always have multiple manager nodes in true production.
+
+
+Deploy a Stack
+
+- stack = services + task(containers)
+- file to define stack = docker-stack.yml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

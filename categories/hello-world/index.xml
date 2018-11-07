@@ -28,7 +28,17 @@ It covers many protocols like HTTP, FTP, IMAP, POP3 &amp;amp; SMTP, It usually c
       <pubDate>Sun, 14 May 2017 11:36:55 +0100</pubDate>
       
       <guid>https://aneesahammed.github.io/posts/hello-world/</guid>
-      <description>&lt;p&gt;Hello, World!! I have been wanting to start my own blog hosted on github.io for a while now.
+      <description>&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;_____________
+&amp;lt; Hello World &amp;gt;
+ -------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Hello, World!! I have been wanting to start my own blog hosted on github.io for a while now.
 &lt;/p&gt;</description>
     </item>
     
