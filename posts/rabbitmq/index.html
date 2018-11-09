@@ -13,8 +13,9 @@
     
   
   
-  <meta name="twitter:title" content="Play with docker"/>
-  <meta name="twitter:description" content="Free in-browser Docker playground to learn Docker"/>
+  <meta name="twitter:title" content="RabbitMQ"/>
+  <meta name="twitter:description" content="_______________ &lt; Im not rabbit!! &gt; --------------- \ ^__^ \ (oo)\_______ (__)\ )\/\ ||----w | || ||  Today in office, in order to demonstrate a proof of concept (POC) related to message queues, had to spin up a rabbitmq server. &ldquo;Play with Docker&rdquo; come to the rescue. In couple of minutes environment is up and ready.
+docker run -d \ --hostname rabbit-host \ --name rabbit-container \ -p 80:15672 \ -p 5672:5672 \ -e RABBITMQ_DEFAULT_USER=&quot;rabbit&quot; \ -e RABBITMQ_DEFAULT_PASS=&quot;carrot&quot; \ rabbitmq:3-management     PORT Description     15672 RabbitMQ Management console uses PORT 15672 for RabbitMQ version 3."/>
   
     <meta name="twitter:site" content="@@aneesahammed"/>
   
@@ -30,7 +31,7 @@
 		<meta name="author" content="anees ahammed">
 		<meta name="description" content="My ramblings, musings and thoughts">
 		<meta name="generator" content="Hugo 0.49.2" />
-		<title>Play with docker &middot; ^^</title>
+		<title>RabbitMQ &middot; ^^</title>
 		<link rel="shortcut icon" href="https://aneesahammed.github.io/images/favicon.ico">
 		<link rel="stylesheet" href="https://aneesahammed.github.io/css/style.css">
 		<link rel="stylesheet" href="https://aneesahammed.github.io/css/highlight.css">
@@ -68,17 +69,17 @@
             <article>
                 <header>
                     <h1>
-                        Play with docker
+                        RabbitMQ
                     </h1>
                     <h2 class="headline">
-                    Oct 31, 2018 11:36
-                    · 72 words
+                    Nov 5, 2018 11:36
+                    · 129 words
                     · 1 minute read
                       <span class="tags">
                       
                       
                           
-                              <a href="https://aneesahammed.github.io/tags/docker">docker</a>
+                              <a href="https://aneesahammed.github.io/tags/rabbitmq">rabbitmq</a>
                           
                               <a href="https://aneesahammed.github.io/tags/devops">devOps</a>
                           
@@ -89,48 +90,72 @@
                 </header>
                 
                   
-                    <div id="toc">
-                      <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#prerequisite">Prerequisite</a></li>
-<li><a href="#pwd">PWD</a></li>
-<li><a href="#demo">Demo</a></li>
-</ul></li>
-</ul>
-</nav>
-                    </div>
-                  
                 
                 <section id="post-body">
-                    
+                    <pre><code class="language-shell"> _______________
+&lt; Im not rabbit!! &gt;
+ ---------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+</code></pre>
 
-<h2 id="prerequisite">Prerequisite</h2>
+<p>Today in office, in order to demonstrate a proof of concept (POC) related to message queues, had to spin up a <a href="https://www.rabbitmq.com/">rabbitmq</a> server.
+&ldquo;<a href="../play-with-docker/">Play with Docker</a>&rdquo; come to the rescue. In couple of minutes environment is up and ready.</p>
 
-<p>Make sure you have already created a <a href="https://hub.docker.com/">Docker Hub</a> account.</p>
+<pre><code>docker run -d \
+--hostname rabbit-host \
+--name rabbit-container \
+-p 80:15672 \
+-p 5672:5672 \
+-e RABBITMQ_DEFAULT_USER=&quot;rabbit&quot; \
+-e RABBITMQ_DEFAULT_PASS=&quot;carrot&quot; \
+rabbitmq:3-management
+</code></pre>
 
-<h2 id="pwd">PWD</h2>
+<table>
+<thead>
+<tr>
+<th>PORT</th>
+<th>Description</th>
+</tr>
+</thead>
 
-<p>This post is about &ldquo;Play with Docker&rdquo; chrome-extension.
-<a href="https://labs.play-with-docker.com/">Play with Docker(PWD)</a> by itself is a simple, interactive and fun playground to learn Docker. This will give you a throwaway *nix shell, in which you can safely play with docker.</p>
+<tbody>
+<tr>
+<td>15672</td>
+<td>RabbitMQ Management console uses PORT 15672 for RabbitMQ version 3.x .</td>
+</tr>
 
-<p><a href="https://chrome.google.com/webstore/detail/play-with-docker/kibbhpioncdhmamhflnnmfonadknnoan?utm_source=chrome-ntp-icon">
-  <img src="https://cdn.rawgit.com/play-with-docker/stacks/cff22438/assets/images/button.png" alt="play with docker button" align="middle" style="width:120px;height:30px;">
-</a></p>
+<tr>
+<td>55672</td>
+<td>RabbitMQ Management console pre 3.x</td>
+</tr>
 
-<p>Extension adds a &ldquo;<strong>Try in PWD</strong>&rdquo; button on any <a href="https://hub.docker.com/">Docker Hub</a> image page. Here is a short demo of same.</p>
+<tr>
+<td>5672</td>
+<td>Main RabbitMQ PORT and is defined in RABBITMQ_NODE_PORT environment variable</td>
+</tr>
+</tbody>
+</table>
 
-<h2 id="demo">Demo</h2>
+<p>You can find more about environment RabbitMQ env variables here <a href="https://www.rabbitmq.com/configure.html#define-environment-variables" title="More about RabbitMQ env vars">https://www.rabbitmq.com/configure.html#define-environment-variables</a></p>
 
-<p><iframe src="https://player.vimeo.com/video/298279603" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<br><br></p>
+<p><img width="1132" alt="rabbit-node" src="https://user-images.githubusercontent.com/8899419/48027556-06eb2e00-e141-11e8-81f3-6f18c3f373ec.png"></p>
+
+<p><img src="https://user-images.githubusercontent.com/8899419/48027715-6a755b80-e141-11e8-8305-ccd010f0defd.png" alt="image" /></p>
+
+<p>Login with credentials <strong>username</strong>: &lsquo;rabbit&rsquo; &amp; <strong>password</strong>: &lsquo;carrot&rsquo;</p>
+
+<p><img src="https://user-images.githubusercontent.com/8899419/48027877-e66fa380-e141-11e8-9b72-a457b1f4c506.png" alt="image" /></p>
 
                 </section>
             </article>
 
             
-                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2faneesahammed.github.io%2fposts%2fplay-with-docker%2f - Play%20with%20docker by @%40aneesahammed"><span class="icon-twitter"> tweet</span></a>
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2faneesahammed.github.io%2fposts%2frabbitmq%2f - RabbitMQ by @%40aneesahammed"><span class="icon-twitter"> tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(

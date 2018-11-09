@@ -32,7 +32,7 @@
     <item>
       <title>Devops</title>
       <link>https://aneesahammed.github.io/tags/devops/</link>
-      <pubDate>Wed, 31 Oct 2018 11:36:55 +0100</pubDate>
+      <pubDate>Mon, 05 Nov 2018 11:36:55 +0100</pubDate>
       
       <guid>https://aneesahammed.github.io/tags/devops/</guid>
       <description></description>
@@ -44,6 +44,15 @@
       <pubDate>Wed, 31 Oct 2018 11:36:55 +0100</pubDate>
       
       <guid>https://aneesahammed.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rabbitmq</title>
+      <link>https://aneesahammed.github.io/tags/rabbitmq/</link>
+      <pubDate>Mon, 05 Nov 2018 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/tags/rabbitmq/</guid>
       <description></description>
     </item>
     

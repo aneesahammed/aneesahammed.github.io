@@ -6,10 +6,20 @@
     <description>Recent content on ^^</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 31 Oct 2018 11:36:55 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 05 Nov 2018 11:36:55 +0100</lastBuildDate>
     
 	<atom:link href="https://aneesahammed.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RabbitMQ</title>
+      <link>https://aneesahammed.github.io/posts/rabbitmq/</link>
+      <pubDate>Mon, 05 Nov 2018 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/rabbitmq/</guid>
+      <description>_______________ &amp;lt; Im not rabbit!! &amp;gt; --------------- \ ^__^ \ (oo)\_______ (__)\ )\/\ ||----w | || ||  Today in office, in order to demonstrate a proof of concept (POC) related to message queues, had to spin up a rabbitmq server. &amp;ldquo;Play with Docker&amp;rdquo; come to the rescue. In couple of minutes environment is up and ready.
+docker run -d \ --hostname rabbit-host \ --name rabbit-container \ -p 80:15672 \ -p 5672:5672 \ -e RABBITMQ_DEFAULT_USER=&amp;quot;rabbit&amp;quot; \ -e RABBITMQ_DEFAULT_PASS=&amp;quot;carrot&amp;quot; \ rabbitmq:3-management     PORT Description     15672 RabbitMQ Management console uses PORT 15672 for RabbitMQ version 3.</description>
+    </item>
     
     <item>
       <title>Play with docker</title>
@@ -18,7 +28,7 @@
       
       <guid>https://aneesahammed.github.io/posts/play-with-docker/</guid>
       <description>Prerequisite Make sure you have already created a Docker Hub account.
-PWD This post is about &amp;ldquo;Play with Docker&amp;rdquo; chrome-extension. Play with Docker(PWD) by itself is a simple, interactive and fun playground to learn Docker. This will give you a throwaway *nix shellin which you can safely play with docker.
+PWD This post is about &amp;ldquo;Play with Docker&amp;rdquo; chrome-extension. Play with Docker(PWD) by itself is a simple, interactive and fun playground to learn Docker. This will give you a throwaway *nix shell, in which you can safely play with docker.
 
 Extension adds a &amp;ldquo;Try in PWD&amp;rdquo; button on any Docker Hub image page. Here is a short demo of same.</description>
     </item>

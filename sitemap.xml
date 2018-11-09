@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://aneesahammed.github.io/posts/rabbitmq/</loc>
+    <lastmod>2018-11-05T11:36:55+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://aneesahammed.github.io/posts/play-with-docker/</loc>
     <lastmod>2018-10-31T11:36:55+01:00</lastmod>
   </url>
@@ -65,37 +70,37 @@
   </url>
   
   <url>
-    <loc>https://aneesahammed.github.io/categories/development/</loc>
-    <lastmod>2018-10-29T11:36:55+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://aneesahammed.github.io/tags/development/</loc>
     <lastmod>2018-10-29T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://aneesahammed.github.io/categories/devops/</loc>
-    <lastmod>2018-10-31T11:36:55+01:00</lastmod>
+    <loc>https://aneesahammed.github.io/categories/development/</loc>
+    <lastmod>2018-10-29T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aneesahammed.github.io/tags/devops/</loc>
+    <lastmod>2018-11-05T11:36:55+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/categories/devops/</loc>
+    <lastmod>2018-11-05T11:36:55+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/tags/docker/</loc>
     <lastmod>2018-10-31T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aneesahammed.github.io/categories/docker/</loc>
-    <lastmod>2018-10-31T11:36:55+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://aneesahammed.github.io/tags/docker/</loc>
     <lastmod>2018-10-31T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -126,13 +131,25 @@
   
   <url>
     <loc>https://aneesahammed.github.io/posts/</loc>
-    <lastmod>2018-10-31T11:36:55+01:00</lastmod>
+    <lastmod>2018-11-05T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aneesahammed.github.io/categories/prototype/</loc>
     <lastmod>2017-08-20T11:36:55+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/categories/qeueu/</loc>
+    <lastmod>2018-11-05T11:36:55+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/tags/rabbitmq/</loc>
+    <lastmod>2018-11-05T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -150,7 +167,7 @@
   
   <url>
     <loc>https://aneesahammed.github.io/</loc>
-    <lastmod>2018-10-31T11:36:55+01:00</lastmod>
+    <lastmod>2018-11-05T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
