@@ -6,10 +6,21 @@
     <description>Recent content in Posts on ^^</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Nov 2018 11:36:55 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2019 23:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aneesahammed.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GitHub Auto Tagger</title>
+      <link>https://aneesahammed.github.io/posts/github-auto-tagger/</link>
+      <pubDate>Wed, 10 Apr 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/github-auto-tagger/</guid>
+      <description>I keep track of all my work using GitHub project boards.
+To simplify, automate &amp;amp; improve my GitHub issue management workflow therefore to scratch my own itch, I made simple GitHub Probot app autotagger. It automatically tags GitHub Issues based on the matched pattern. Simply mention your tags in square brackets [&amp;hellip;] on Issue title.
+Please install autotagger, I&amp;rsquo;d love to hear your feedback. You can find more details about the Probot from here.</description>
+    </item>
     
     <item>
       <title>RabbitMQ</title>
