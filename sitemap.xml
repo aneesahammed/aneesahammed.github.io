@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://aneesahammed.github.io/posts/daily-log/</loc>
+    <lastmod>2019-05-03T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://aneesahammed.github.io/posts/github-auto-tagger/</loc>
     <lastmod>2019-04-10T23:00:00+00:00</lastmod>
   </url>
@@ -142,7 +147,19 @@
   
   <url>
     <loc>https://aneesahammed.github.io/posts/</loc>
-    <lastmod>2019-04-10T23:00:00+00:00</lastmod>
+    <lastmod>2019-05-03T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/tags/productivity/</loc>
+    <lastmod>2019-05-03T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/categories/productivity/</loc>
+    <lastmod>2019-05-03T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -178,7 +195,7 @@
   
   <url>
     <loc>https://aneesahammed.github.io/</loc>
-    <lastmod>2019-04-10T23:00:00+00:00</lastmod>
+    <lastmod>2019-05-03T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
