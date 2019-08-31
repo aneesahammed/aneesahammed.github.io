@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://aneesahammed.github.io/posts/glimpses-insights/</loc>
+    <lastmod>2019-07-30T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://aneesahammed.github.io/posts/daily-log/</loc>
     <lastmod>2019-05-03T23:00:00+00:00</lastmod>
   </url>
@@ -69,7 +74,19 @@
   </url>
   
   <url>
+    <loc>https://aneesahammed.github.io/tags/analytics/</loc>
+    <lastmod>2019-07-30T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://aneesahammed.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/tags/design/</loc>
+    <lastmod>2019-07-30T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -128,6 +145,12 @@
   </url>
   
   <url>
+    <loc>https://aneesahammed.github.io/tags/glimpses/</loc>
+    <lastmod>2019-07-30T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://aneesahammed.github.io/categories/hello-world/</loc>
     <lastmod>2017-05-14T11:36:55+01:00</lastmod>
     <priority>0</priority>
@@ -147,7 +170,7 @@
   
   <url>
     <loc>https://aneesahammed.github.io/posts/</loc>
-    <lastmod>2019-05-03T23:00:00+00:00</lastmod>
+    <lastmod>2019-07-30T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -194,8 +217,14 @@
   </url>
   
   <url>
+    <loc>https://aneesahammed.github.io/tags/visualization/</loc>
+    <lastmod>2019-07-30T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://aneesahammed.github.io/</loc>
-    <lastmod>2019-05-03T23:00:00+00:00</lastmod>
+    <lastmod>2019-07-30T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
