@@ -18,9 +18,8 @@
       
       <guid>https://aneesahammed.github.io/posts/glimpses-insights/</guid>
       <description>Thought of sharing the video that shows my humble effort to create simple interactive visualizaton of the global distribution of glimpses users with maximum sessions.
- Thanks to Tableau Public and github-pages with which I could do this.
-Tableau Public is a free software that can connect to a file (Exce, csv, JSON..) or a server and create stunning interactive data visualizations for the web.
-Please be aware that as the name suggests Tableau public is 100% public and not recommended to sharing private or proprietary data.</description>
+ Thanks to Tableau Public and github-pages, I found these two immensly helpful in creating, embedding and publishing viz.
+Tableau Public is a free software that can connect to a file (Excel, CSV, JSON..) or to a server and create stunning interactive data visualizations for the web.</description>
     </item>
     
     <item>
