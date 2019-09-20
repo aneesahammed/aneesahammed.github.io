@@ -85,20 +85,20 @@
   </url>
   
   <url>
-    <loc>https://aneesahammed.github.io/tags/design/</loc>
-    <lastmod>2019-07-30T23:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://aneesahammed.github.io/categories/design/</loc>
     <lastmod>2017-08-20T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://aneesahammed.github.io/tags/development/</loc>
-    <lastmod>2018-10-29T11:36:55+01:00</lastmod>
+    <loc>https://aneesahammed.github.io/tags/design/</loc>
+    <lastmod>2019-07-30T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/tags/developer/</loc>
+    <lastmod>2017-06-14T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -109,8 +109,8 @@
   </url>
   
   <url>
-    <loc>https://aneesahammed.github.io/tags/devops/</loc>
-    <lastmod>2018-11-05T11:36:55+01:00</lastmod>
+    <loc>https://aneesahammed.github.io/tags/development/</loc>
+    <lastmod>2018-10-29T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -121,13 +121,19 @@
   </url>
   
   <url>
-    <loc>https://aneesahammed.github.io/tags/docker/</loc>
-    <lastmod>2018-10-31T11:36:55+01:00</lastmod>
+    <loc>https://aneesahammed.github.io/tags/devops/</loc>
+    <lastmod>2018-11-05T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aneesahammed.github.io/categories/docker/</loc>
+    <lastmod>2018-10-31T11:36:55+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/tags/docker/</loc>
     <lastmod>2018-10-31T11:36:55+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -175,13 +181,13 @@
   </url>
   
   <url>
-    <loc>https://aneesahammed.github.io/tags/productivity/</loc>
+    <loc>https://aneesahammed.github.io/categories/productivity/</loc>
     <lastmod>2019-05-03T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://aneesahammed.github.io/categories/productivity/</loc>
+    <loc>https://aneesahammed.github.io/tags/productivity/</loc>
     <lastmod>2019-05-03T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

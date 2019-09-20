@@ -66,14 +66,14 @@ Desktop Bridge provided the perfect solution for us to be able to keep all the w
     </item>
     
     <item>
-      <title>Best way to record your screen on Android!!!</title>
+      <title>[dev] Record your screen on Android!!</title>
       <link>https://aneesahammed.github.io/posts/record-android-screen/</link>
       <pubDate>Wed, 14 Jun 2017 11:36:55 +0100</pubDate>
       
       <guid>https://aneesahammed.github.io/posts/record-android-screen/</guid>
-      <description>If you wanted to record a tutorial or wanted to create a demo of your app you&amp;rsquo;d need to capture the screen in real time. Without installing some third-party crappy piece of software this is daunting. So below is one of the easy steps to follow for geeks in you.
+      <description>Ever wanted to record a tutorial or wanted to create a demo of your app you&amp;rsquo;d need to capture the screen in real time. Without installing any of third-party software this is daunting. So below is one of the easy steps to follow for geeks in you.
 Download the platform-tools from below URL if you don&amp;rsquo;t have Android Studio installed.
-developer.android.com  Connect your Android Phone to your computer.</description>
+developer.android.com  Connect your Android Phone to your computer. Make sure you have selected the option &amp;ldquo;Use USB for&amp;rdquo; to &amp;ldquo;File transfers&amp;rdquo;  Open the command prompt (Win+R) Enter the below command adb shell and press &amp;ldquo;Enter&amp;rdquo; key Write the below command to record the screen screenrecord /sdcard/download/fileName.</description>
     </item>
     
     <item>
