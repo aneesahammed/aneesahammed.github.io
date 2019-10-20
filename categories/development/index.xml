@@ -51,7 +51,8 @@ Although there are a huge number of tools out there that are dedicated solely to
       
       <guid>https://aneesahammed.github.io/posts/xaml-styler/</guid>
       <description>If you have already worked on WPF or Windows Phone projects, you might have used the XAML Styler. Which is a visual studio extension for formatting XAML source code, which helps in maintaining better XAML coding style and better XAML readability.
-I have been using this extension for quite some time including my Xamarin Forms projects in Xamarin Studio. Even though “Visual Studio for Mac” was available, I remained with Xamarin Studio as XAML Styler was not supported in VS for MAC.</description>
+Even though “Visual Studio for Mac” was available, I kept using Xamarin Studio because XAML Styler extension was not supported in VS for MAC.
+Finally, Ben Lacey got a version compatible with VS for Mac.</description>
     </item>
     
     <item>
