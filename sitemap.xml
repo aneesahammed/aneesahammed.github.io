@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://aneesahammed.github.io/posts/snapcircle/</loc>
+    <lastmod>2019-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://aneesahammed.github.io/posts/glimpses-insights/</loc>
     <lastmod>2019-07-30T23:00:00+00:00</lastmod>
   </url>
@@ -175,8 +180,14 @@
   </url>
   
   <url>
+    <loc>https://aneesahammed.github.io/tags/mvp/</loc>
+    <lastmod>2019-12-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://aneesahammed.github.io/posts/</loc>
-    <lastmod>2019-07-30T23:00:00+00:00</lastmod>
+    <lastmod>2019-12-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -211,8 +222,26 @@
   </url>
   
   <url>
+    <loc>https://aneesahammed.github.io/tags/snapcircle/</loc>
+    <lastmod>2019-12-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/tags/startup/</loc>
+    <lastmod>2019-12-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://aneesahammed.github.io/tags/</loc>
     <lastmod>2017-10-07T11:36:55+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aneesahammed.github.io/categories/tech/</loc>
+    <lastmod>2019-12-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -230,7 +259,7 @@
   
   <url>
     <loc>https://aneesahammed.github.io/</loc>
-    <lastmod>2019-07-30T23:00:00+00:00</lastmod>
+    <lastmod>2019-12-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
