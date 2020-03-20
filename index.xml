@@ -6,10 +6,21 @@
     <description>Recent content on ^^</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aneesahammed.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DevOps practice: GitHub</title>
+      <link>https://aneesahammed.github.io/posts/devops-practice-github/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/devops-practice-github/</guid>
+      <description>When you speak about DevOps at scale, being SOC (Service Organization Control) 2 compliant and dealing with hundreds or more projects and engineers, it&amp;rsquo;s nearly impossible to impart so called &amp;ldquo;DevOps culture&amp;rdquo; without putting together team-wide standard practices &amp;amp; policies.
+So below are few DevOps practices we follow when we select a candidate application or service for our DevOps onboarding.
+Git the single source of truth Let me start with the single source of truth Git.</description>
+    </item>
     
     <item>
       <title>snapcircle🎯</title>
