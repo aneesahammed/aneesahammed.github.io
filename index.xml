@@ -48,9 +48,9 @@ So here, I just wanted to share a little-known simple &amp;amp; neat trick 🔨,
       <pubDate>Wed, 10 Apr 2019 23:00:00 +0000</pubDate>
       
       <guid>https://aneesahammed.github.io/posts/github-auto-tagger/</guid>
-      <description>I keep track of all my work using GitHub project boards.
-To simplify, automate &amp;amp; improve GitHub issue management workflow therefore to scratch my own itch, I made simple GitHub Probot app autotagger. It automatically tags GitHub Issues based on the matched pattern. Simply mention your tags in square brackets [&amp;hellip;] on Issue title.
-Please install autotagger, I&amp;rsquo;d love to hear your feedback. You can find more details about the Probot from here.</description>
+      <description>I keep track of all my development work using GitHub project boards.
+It not only helps me to see where work is flowing, queued or stalled but also to make our work visible and transparent as possible.
+To simplify, automate &amp;amp; improve GitHub issue management workflow therefore to scratch my own itch, I made a simple GitHub Probot app autotagger. It automatically tags the GitHub Issues based on the matched pattern.</description>
     </item>
     
     <item>
