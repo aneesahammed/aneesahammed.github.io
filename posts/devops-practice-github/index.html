@@ -72,8 +72,8 @@
                     </h1>
                     <h2 class="headline">
                     Mar 20, 2020 00:00
-                    · 603 words
-                    · 3 minute read
+                    · 670 words
+                    · 4 minute read
                       <span class="tags">
                       
                       
@@ -136,7 +136,7 @@
 
 <h2 id="make-sure-to-protect-master-develop-branch-br">Make sure to 🚧 protect <code>master</code> &amp; <code>develop</code> branch.<br></h2>
 
-<p>Ideally all the changes in repository should happen through <code>Pull Request</code> or <code>Merge Request</code>, so all changes are observable, verifiable &amp; traceable. For that <code>master</code> branch should always be protected and it should reflects the last production version released. i.e merge your code from <code>develop</code> to <code>master</code> only after the production release. And after each stable production release, make sure to <strong>tag</strong> that commit reference following <a href="https://semver.org/">semantic versioning</a> convention.</p>
+<p>Ideally all the changes in repository should happen through <code>Pull Request</code> or <code>Merge Request</code>, so all changes are observable, verifiable &amp; traceable. For that <code>master</code> branch should always be protected and it should reflect the last production version released. i.e merge your code from <code>develop</code> to <code>master</code> only after the production release. And after each stable production release, make sure to <strong>tag</strong> that commit reference following <a href="https://semver.org/">semantic versioning</a> convention.</p>
 
 <h2 id="ensure-every-commit-message-link-to-rally-jira-ticket-br">Ensure every commit message 🔗 link to Rally/Jira ticket.<br></h2>
 
@@ -166,8 +166,13 @@ US12345 fixes the nasty divide by zero exception.
 
 <p>As &ldquo;<strong>Twelve Factor App</strong>&rdquo; methodology states, a litmus test for whether an app has configs &amp; secrets correctly factored out of the code is whether the codebase could be made open source at any  moment, without compromising any credentials.</p>
 
+<p>Inspite of all these, we often see, team implementing excessive control in the name of seggreation of duties, which conflicts with the high trust cultural foundations of Agile and DevOps.<br>
+I do believe Developers having access to production is going to be the new normal. i.e <a href="https://www.gitops.tech/">GitOps</a> is the new normal.</p>
+
 <blockquote>
 <p>SOC : SOC (Service Organization Control) 2 is an audit report specifically designed by AICPA for technology service providers or organizations that store data in the cloud. That includes all SaaS companies.</p>
+
+<p>GitOps: versioned CI/CD on top of declarative infrastructure. Stop scripting and start shipping. — Kelsey Hightower</p>
 </blockquote>
 
                 </section>
