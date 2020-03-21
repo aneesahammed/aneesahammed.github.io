@@ -72,7 +72,7 @@
                     </h1>
                     <h2 class="headline">
                     Mar 20, 2020 00:00
-                    · 545 words
+                    · 566 words
                     · 3 minute read
                       <span class="tags">
                       
@@ -126,7 +126,7 @@
 
 <p>So that developers can continue checkin their source code to the <code>develop</code> branch. And we can enable <code>develop</code> branch to be automatically deployed on every checkin from the CI orchestrator: Jenkins, CircleCi.</p>
 
-<p>And follow below branching naming convention for other branches.<br></p>
+<p>And follow below branching naming convention for other branches you deals with.<br></p>
 
 <ul>
 <li>for all the feature branches, follow prefix <code>feature/..</code></li>
@@ -136,7 +136,8 @@
 
 <h2 id="make-sure-to-protect-master-develop-branch-br">Make sure to 🚧 protect <code>master</code> &amp; <code>develop</code> branch.<br></h2>
 
-<p>Idea is that, <code>master</code> branch should be deployable and it should reflects the last production released version of the source code.</p>
+<p>Idea is that, <code>master</code> branch should always be deployable and it should reflects the last production version released.<br />
+And all changes in repository should happen through <code>Pull Request</code> or <code>Merge Request</code> thus all changes are observable, verifiable &amp; traceable</p>
 
 <h2 id="ensure-every-commit-message-link-to-rally-jira-ticket-br">Ensure every commit message 🔗 link to Rally/Jira ticket.<br></h2>
 
