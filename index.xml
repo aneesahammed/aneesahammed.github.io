@@ -17,9 +17,9 @@
       <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://aneesahammed.github.io/posts/devops-practice-github/</guid>
-      <description>When you speak about DevOps at scale, being SOC (Service Organization Control) 2 compliant and dealing with hundreds or more projects and engineers, it&amp;rsquo;s nearly impossible to impart so called &amp;ldquo;DevOps culture&amp;rdquo; without putting together team-wide standard practices &amp;amp; policies.
-So below are few DevOps practices we follow when we select a candidate application or service for our DevOps onboarding.
-Git the single source of truth Git is a distributed version-control system for tracking changes in source code during software development.</description>
+      <description>Considering DevOps at scale, being SOC (Service Organization Control) 2 compliant and dealing with hundreds or more projects and engineers at the same time, it&amp;rsquo;s nearly impossible to impart &amp;ldquo;DevOps culture&amp;rdquo; without putting together team-wide standard practices &amp;amp; policies.
+Below are the few DevOps onboarding practices/recommendations particularly related to Git/GitHub being followed while selecting a candidate application or service for DevOps onboarding.
+Git Git, as Wikipedia says is a distributed version control system for tracking changes in source code during software development Most importantly adopting a consistent naming convention &amp;amp; repository structure across the organization is essential.</description>
     </item>
     
     <item>

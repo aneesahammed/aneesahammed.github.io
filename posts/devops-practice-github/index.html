@@ -14,7 +14,7 @@
   
   
   <meta name="twitter:title" content="DevOps at scale: GitHub"/>
-  <meta name="twitter:description" content="DevOps GitHub onboarding practices"/>
+  <meta name="twitter:description" content="DevOps onboarding practices (GitHub)"/>
   
     <meta name="twitter:site" content="@@aneesahammed"/>
   
@@ -72,7 +72,7 @@
                     </h1>
                     <h2 class="headline">
                     Mar 20, 2020 00:00
-                    · 678 words
+                    · 649 words
                     · 4 minute read
                       <span class="tags">
                       
@@ -94,11 +94,13 @@
 <ul>
 <li>
 <ul>
-<li><a href="#git-the-single-source-of-truth">Git the single source of truth</a></li>
+<li><a href="#git">Git</a>
+<ul>
 <li><a href="#keep-all-your-repository-name-in-small-letters">Keep all your repository name in small letters</a></li>
-<li><a href="#create-a-develop-branch-alongside-the-default-master-branch">Create a <code>develop</code> branch alongside the default <code>master</code> branch.</a></li>
-<li><a href="#make-sure-to-protect-master-develop-branch-br">Make sure to 🚧 protect <code>master</code> &amp; <code>develop</code> branch.<br></a></li>
+<li><a href="#create-a-development-branch-alongside-the-default-master-branch">Create a <code>development</code> branch alongside the default <code>master</code> branch.</a></li>
+<li><a href="#protect-the-master-development-branch-br">Protect 🚧 the <code>master</code> &amp; <code>development</code> branch.<br></a></li>
 <li><a href="#ensure-every-commit-message-link-to-rally-jira-ticket-br">Ensure every commit message 🔗 link to Rally/Jira ticket.<br></a></li>
+</ul></li>
 <li><a href="#have-a-gitignore-file-never-commit-your-dependencies-into-source-control">Have a 🙈 gitignore file &amp; never commit your 📦 dependencies into source control</a></li>
 <li><a href="#avoid-commiting-secrets-to-source-control">Avoid commiting 🔐 secrets to source control</a></li>
 </ul></li>
@@ -110,23 +112,23 @@
                 <section id="post-body">
                     
 
-<p>When you speak about DevOps at scale, being <a href="https://www.schellman.com/blog/2016/01/what-are-service-organization-controls-soc-reports/">SOC (Service Organization Control) 2</a> compliant and dealing with hundreds or more projects and engineers, it&rsquo;s nearly impossible to impart so called &ldquo;DevOps culture&rdquo; without putting together team-wide standard practices &amp; policies.</p>
+<p>Considering DevOps at scale, being <a href="https://www.schellman.com/blog/2016/01/what-are-service-organization-controls-soc-reports/">SOC (Service Organization Control) 2</a> compliant and dealing with hundreds or more projects and engineers at the same time, it&rsquo;s nearly impossible to impart <strong>&ldquo;DevOps culture&rdquo;</strong> without putting together team-wide standard practices &amp; policies.</p>
 
-<p>So below are few DevOps practices we follow when we select a candidate application or service for our DevOps onboarding.</p>
+<p>Below are the few DevOps onboarding practices/recommendations particularly related to <strong>Git/GitHub</strong> being followed while selecting a candidate application or service for DevOps onboarding.</p>
 
-<h2 id="git-the-single-source-of-truth">Git the single source of truth</h2>
+<h2 id="git">Git</h2>
 
-<p><a href="https://git-scm.com/">Git</a> is a distributed version-control system for tracking changes in source code during software development. So let me start with the single source of truth Git. Adopting a consistent naming convention &amp; repository structure across organization is essential.</p>
+<p><a href="https://git-scm.com/">Git</a>, as Wikipedia says is a distributed version control system for tracking changes in source code during software development Most importantly adopting a consistent naming convention &amp; repository structure across the organization is essential.</p>
 
-<h2 id="keep-all-your-repository-name-in-small-letters">Keep all your repository name in small letters</h2>
+<h3 id="keep-all-your-repository-name-in-small-letters">Keep all your repository name in small letters</h3>
 
-<p>Have <code>-</code> hiphen as word separator: <code>application-service</code>. This is personal preference, and you may separate your words with any other character you want except a space or tab.</p>
+<p>Have <code>-</code> hyphen as word separator: <code>application-service</code>. This is a personal preference, and you may separate your words with any other character you want except space or tab.</p>
 
-<h2 id="create-a-develop-branch-alongside-the-default-master-branch">Create a <code>develop</code> branch alongside the default <code>master</code> branch.</h2>
+<h3 id="create-a-development-branch-alongside-the-default-master-branch">Create a <code>development</code> branch alongside the default <code>master</code> branch.</h3>
 
-<p>So that developers can continue checkin their source code to the <code>develop</code> branch. And we can enable <code>develop</code> branch to be automatically deployed on every checkin from the CI orchestrator: Jenkins, CircleCi.</p>
+<p>So that developers can continue checkin their source code to the <code>development</code> branch. And we can enable the <code>development</code> branch to be automatically deployed on every checkin from the CI orchestrator: ex Jenkins, CircleCi.</p>
 
-<p>And follow below branching naming convention for other branches you deals with.<br></p>
+<p>And follow below branch naming convention for other branches you deal with.<br></p>
 
 <ul>
 <li>for all the feature branches, follow prefix <code>feature/..</code></li>
@@ -134,21 +136,21 @@
 <li>for all hotfix branches follow <code>hotfix/defect-#</code></li>
 </ul>
 
-<h2 id="make-sure-to-protect-master-develop-branch-br">Make sure to 🚧 protect <code>master</code> &amp; <code>develop</code> branch.<br></h2>
+<h3 id="protect-the-master-development-branch-br">Protect 🚧 the <code>master</code> &amp; <code>development</code> branch.<br></h3>
 
-<p>Ideally all the changes in repository should happen through <code>Pull Request</code> or <code>Merge Request</code>, so all changes are observable, verifiable &amp; traceable. For that <code>master</code> branch should always be protected and it should reflect the last production version released. i.e merge your code from <code>develop</code> to <code>master</code> only after the production release. And after each stable production release, make sure to <strong>tag</strong> that commit reference following <a href="https://semver.org/">semantic versioning</a> convention.</p>
+<p>Ideally, all the changes in the repository should happen through <code>Pull Request</code> or <code>Merge Request</code>, so all changes are observable, verifiable &amp; traceable. For that <code>master</code> branch should always be protected and it should reflect the last production version released. i.e merge your code from <code>development</code> to <code>master</code> only after the production release. And after each stable production release, make sure to <strong>tag</strong> that commit reference following <a href="https://semver.org/">semantic versioning</a> convention.</p>
 
-<h2 id="ensure-every-commit-message-link-to-rally-jira-ticket-br">Ensure every commit message 🔗 link to Rally/Jira ticket.<br></h2>
+<h3 id="ensure-every-commit-message-link-to-rally-jira-ticket-br">Ensure every commit message 🔗 link to Rally/Jira ticket.<br></h3>
 
-<p>This helps in achieving traceability across development lifecycle. And this is the most obvious way to remain compliant for those companies opearting in financial sector. And like <a href="https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002/ref=sr_1_1?dchild=1&amp;keywords=devops+handbook&amp;link_code=qs&amp;qid=1584744147&amp;sr=8-1">DevOps Handbook</a> states &ldquo;We can generate evidence on demand to demonstrate that our 🎛  controls are operating effectively, whether to 👮‍ <strong>auditors</strong>, assessors, or anyone elese working in our value stream&rdquo;.</p>
+<p>This helps in achieving the traceability across development lifecycle. And this is the most obvious way to remain compliant for those companies operating in the financial sector. And like <a href="https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002/ref=sr_1_1?dchild=1&amp;keywords=devops+handbook&amp;link_code=qs&amp;qid=1584744147&amp;sr=8-1">DevOps Handbook</a> states &ldquo;We can generate evidence on demand to demonstrate that our 🎛 controls are operating effectively, whether to 👮‍ <strong>auditors</strong>, assessors, or anyone else working in our value stream&rdquo;.</p>
 
-<p>This can be enforced at developer end using <a href="https://githooks.com/">git hooks</a> that gets triggered whenever there is a commit.</p>
+<p>This can be enforced at the developer-end using <a href="https://githooks.com/">git hooks</a> that get triggered whenever there is a commit.</p>
 
 <pre><code># Referencing UserStory/Defect in Commit Message
 US12345 fixes the nasty divide by zero exception.
 </code></pre>
 
-<p><img src="https://user-images.githubusercontent.com/8899419/77199674-23db9380-6ae1-11ea-8671-523a0f2db03d.png" alt="image" /></p>
+<p>Below is a sample git hook script to validate and to be called soon after the user enters a commit message.</p>
 
 <script src="https://gist.github.com/aneesahammed/9f7a6f0c52c968e01e0054cb322ace92.js"></script>
 
@@ -156,23 +158,21 @@ US12345 fixes the nasty divide by zero exception.
 
 <h2 id="have-a-gitignore-file-never-commit-your-dependencies-into-source-control">Have a 🙈 gitignore file &amp; never commit your 📦 dependencies into source control</h2>
 
-<p>What is heaviest thing in universe?. You guessed it right, it is nothing but <strong>node_modules</strong> 😝 <img src="https://user-images.githubusercontent.com/8899419/77202625-98fd9780-6ae6-11ea-8175-8f0328df5587.jpg" alt="node-modules" /> Keep all the unwanted dependencies, personal configs &amp; IDE generated files in gitignore. Checkout <a href="https://www.gitignore.io/">here</a> to create a gitignore file for your tech stack.</p>
+<p>What is the heaviest thing in the universe?. You guessed it right, it is nothing but <strong>node_modules</strong> 😝 <img src="https://user-images.githubusercontent.com/8899419/77202625-98fd9780-6ae6-11ea-8175-8f0328df5587.jpg" alt="node-modules" /> Keep all the unwanted dependencies, personal configs &amp; IDE generated files in gitignore. Checkout <a href="https://www.gitignore.io/">here</a> to create a gitignore file for your tech stack.</p>
 
 <h2 id="avoid-commiting-secrets-to-source-control">Avoid commiting 🔐 secrets to source control</h2>
 
-<p>Inadvertently checking 🗝credentials and other secrets into source control is a major issue. <a href="https://github.com/awslabs/git-secrets">git-secrets</a> is a simple tool that can prevent you from commiting sensitive information into git repositories.</p>
+<p>Inadvertently checking 🗝credentials and other secrets into source control is a major issue.
+<a href="https://github.com/awslabs/git-secrets">git-secrets</a> is a simple tool that can prevent you from commiting sensitive information into git repositories.</p>
 
 <p><a href="https://github.com/awslabs/git-secrets">git-secrets</a> can also scan all historical revisions, so that you can ensure you&rsquo;ve never checked in any credential.</p>
 
-<p>As &ldquo;<strong>Twelve Factor App</strong>&rdquo; methodology states, a litmus test for whether an app has configs &amp; secrets correctly factored out of the code is whether the codebase could be made open source at any  moment, without compromising any credentials.</p>
+<p>As &ldquo;<strong>Twelve Factor App</strong>&rdquo; methodology states, a litmus test for whether an app has configs &amp; secrets correctly factored out of the code is whether the codebase could be made open source at any moment, without compromising any credentials.</p>
 
-<p>Inspite of all these, we often see, team implementing excessive control in the name of seggreation of duties, which conflicts with the high trust cultural foundations of Agile and DevOps.<br>
-As a firm believer of <a href="https://www.gitops.tech/">GitOps</a>, I see Developers having access to production is not far and is going to be the new normal. GitOps is the new normal.</p>
+<p>Still, we often see, team implementing excessive control in the name of segreation of duties, which conflicts with the high trust cultural foundations of Agile and DevOps.</p>
 
 <blockquote>
 <p><strong>SOC</strong> : SOC (Service Organization Control) 2 is an audit report specifically designed by AICPA for technology service providers or organizations that store data in the cloud. That includes all SaaS companies.</p>
-
-<p><strong>GitOps</strong>: versioned CI/CD on top of declarative infrastructure. Stop scripting and start shipping. — Kelsey Hightower</p>
 </blockquote>
 
                 </section>
