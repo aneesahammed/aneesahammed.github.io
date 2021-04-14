@@ -1,26 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Glimpses on ^^</title>
-    <link>https://aneesahammed.github.io/tags/glimpses/</link>
-    <description>Recent content in Glimpses on ^^</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 30 Jul 2019 23:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://aneesahammed.github.io/tags/glimpses/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>glimpses Insights</title>
-      <link>https://aneesahammed.github.io/posts/glimpses-insights/</link>
-      <pubDate>Tue, 30 Jul 2019 23:00:00 +0000</pubDate>
-      
-      <guid>https://aneesahammed.github.io/posts/glimpses-insights/</guid>
-      <description>This post is about a simple interactive visualizaton I made of glimpses analytics data, which reflects the global distribution of glimpses users with maximum sessions.
- Thanks to Tableau Public and github-pages, I found these two solutions immensly helpful in creating, embedding and publishing viz.
-Tableau Public is a free software that can connect to a file (Excel, CSV, JSON..) or to a server and create stunning interactive data visualizations for the web.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>glimpses on ^^</title><link>https://aneesahammed.github.io/tags/glimpses/</link><description>Recent content in glimpses on ^^</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 30 Jul 2019 23:00:00 +0000</lastBuildDate><atom:link href="https://aneesahammed.github.io/tags/glimpses/index.xml" rel="self" type="application/rss+xml"/><item><title>glimpses Insights</title><link>https://aneesahammed.github.io/posts/glimpses-insights/</link><pubDate>Tue, 30 Jul 2019 23:00:00 +0000</pubDate><guid>https://aneesahammed.github.io/posts/glimpses-insights/</guid><description>This post is about a simple interactive visualizaton I made of glimpses analytics data, which reflects the global distribution of glimpses users with maximum sessions.
+Thanks to Tableau Public and github-pages, I found these two solutions immensly helpful in creating, embedding and publishing viz.
+Tableau Public is a free software that can connect to a file (Excel, CSV, JSON..) or to a server and create stunning interactive data visualizations for the web.</description></item></channel></rss>

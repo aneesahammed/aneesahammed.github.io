@@ -1,26 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Development on ^^</title>
-    <link>https://aneesahammed.github.io/tags/development/</link>
-    <description>Recent content in Development on ^^</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 29 Oct 2018 11:36:55 +0100</lastBuildDate>
-    
-	<atom:link href="https://aneesahammed.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>CURL</title>
-      <link>https://aneesahammed.github.io/posts/curl/</link>
-      <pubDate>Mon, 29 Oct 2018 11:36:55 +0100</pubDate>
-      
-      <guid>https://aneesahammed.github.io/posts/curl/</guid>
-      <description>As part of my journey as a developer and decision to document my learning, I&amp;rsquo;ve been thinking of writing a short post regarding curl, here it is.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>development on ^^</title><link>https://aneesahammed.github.io/tags/development/</link><description>Recent content in development on ^^</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 29 Oct 2018 11:36:55 +0100</lastBuildDate><atom:link href="https://aneesahammed.github.io/tags/development/index.xml" rel="self" type="application/rss+xml"/><item><title>CURL</title><link>https://aneesahammed.github.io/posts/curl/</link><pubDate>Mon, 29 Oct 2018 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/curl/</guid><description>As part of my journey as a developer and decision to document my learning, I&amp;rsquo;ve been thinking of writing a short post regarding curl, here it is.
 Curl is a command line tool for transferring data to and from a server. Curl stands for Client URL and was developed by a Swedish developer Daniel Stenberg @bagder.
-It covers many protocols like HTTP, FTP, IMAP, POP3 &amp;amp; SMTP, It usually comes pre-installed in most of Linux distros and modern versions of OS X.</description>
-    </item>
-    
-  </channel>
-</rss>
+It covers many protocols like HTTP, FTP, IMAP, POP3 &amp;amp; SMTP, It usually comes pre-installed in most of Linux distros and modern versions of OS X.</description></item></channel></rss>
