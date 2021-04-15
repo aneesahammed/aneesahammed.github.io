@@ -6,11 +6,11 @@
     <description>Recent content in docker on ^^</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 31 Oct 2018 11:36:55 +0100</lastBuildDate><atom:link href="https://aneesahammed.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Oct 2018 10:36:55 +0000</lastBuildDate><atom:link href="https://aneesahammed.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Play with docker 🐳</title>
       <link>https://aneesahammed.github.io/posts/play-with-docker/</link>
-      <pubDate>Wed, 31 Oct 2018 11:36:55 +0100</pubDate>
+      <pubDate>Wed, 31 Oct 2018 10:36:55 +0000</pubDate>
       
       <guid>https://aneesahammed.github.io/posts/play-with-docker/</guid>
       <description>🐳 Prerequisite Make sure you have already created a Docker Hub account.
