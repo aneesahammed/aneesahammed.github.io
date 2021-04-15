@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>hugo on ^^</title>
-    <link>https://aneesahammed.github.io/tags/hugo/</link>
-    <description>Recent content in hugo on ^^</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 14 Apr 2021 23:00:00 +0000</lastBuildDate><atom:link href="https://aneesahammed.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>🚀Hugo: Deploy with GitHub Actions</title>
-      <link>https://aneesahammed.github.io/posts/hugo-deploy-with-github-actions/</link>
-      <pubDate>Wed, 14 Apr 2021 23:00:00 +0000</pubDate>
-      
-      <guid>https://aneesahammed.github.io/posts/hugo-deploy-with-github-actions/</guid>
-      <description>This post discusses how Hugo, a blazingly fast static site generator written in Golang, can be deployed with GitHub Actions to GitHub pages.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo on ^^</title><link>https://aneesahammed.github.io/tags/hugo/</link><description>Recent content in hugo on ^^</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 14 Apr 2021 23:00:00 +0000</lastBuildDate><atom:link href="https://aneesahammed.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>🚀Hugo: Deploy with GitHub Actions</title><link>https://aneesahammed.github.io/posts/hugo-deploy-with-github-actions/</link><pubDate>Wed, 14 Apr 2021 23:00:00 +0000</pubDate><guid>https://aneesahammed.github.io/posts/hugo-deploy-with-github-actions/</guid><description>This post discusses how Hugo, a blazingly fast static site generator written in Golang, can be deployed with GitHub Actions to GitHub pages.
 This blog which you are currently reading, is built using Hugo and is hosted on the Github pages.
 Repository structure I&amp;rsquo;ve got a private repository just for the contents &amp;amp; another separate repository to hold the generated files (HTML/CSS).
-Initially, I relied on the Hugo CLI to generate &amp;amp; serve the static page contents each time I create/edit posts.</description>
-    </item>
-    
-  </channel>
-</rss>
+Initially, I relied on the Hugo CLI to generate &amp;amp; serve the static page contents each time I create/edit posts.</description></item></channel></rss>

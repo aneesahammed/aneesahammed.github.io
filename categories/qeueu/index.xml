@@ -1,21 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>qeueu on ^^</title>
-    <link>https://aneesahammed.github.io/categories/qeueu/</link>
-    <description>Recent content in qeueu on ^^</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 05 Nov 2018 11:36:55 +0100</lastBuildDate><atom:link href="https://aneesahammed.github.io/categories/qeueu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>RabbitMQ 🐰</title>
-      <link>https://aneesahammed.github.io/posts/rabbitmq/</link>
-      <pubDate>Mon, 05 Nov 2018 11:36:55 +0100</pubDate>
-      
-      <guid>https://aneesahammed.github.io/posts/rabbitmq/</guid>
-      <description>_______________ &amp;lt; Im not rabbit!! &amp;gt; --------------- \  ^__^ \  (oo)\_______ (__)\  )\/\  ||----w | || || Today at work, had to demonstrate a proof of concept (POC) related to message queues, so need to spin-up a rabbitmq server. &amp;ldquo;Play with Docker&amp;rdquo; come to the rescue. In couple of minutes environment is up and ready.
-docker run -d \ --hostname rabbit-host \ --name rabbit-container \ -p 80:15672 \ -p 5672:5672 \ -e RABBITMQ_DEFAULT_USER=&amp;quot;rabbit&amp;quot; \ -e RABBITMQ_DEFAULT_PASS=&amp;quot;carrot&amp;quot; \ rabbitmq:3-management     PORT Description     15672 RabbitMQ Management console uses PORT 15672 for RabbitMQ version 3.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>qeueu on ^^</title><link>https://aneesahammed.github.io/categories/qeueu/</link><description>Recent content in qeueu on ^^</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 05 Nov 2018 11:36:55 +0100</lastBuildDate><atom:link href="https://aneesahammed.github.io/categories/qeueu/index.xml" rel="self" type="application/rss+xml"/><item><title>RabbitMQ 🐰</title><link>https://aneesahammed.github.io/posts/rabbitmq/</link><pubDate>Mon, 05 Nov 2018 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/rabbitmq/</guid><description>_______________ &amp;lt; Im not rabbit!! &amp;gt; --------------- \ ^__^ \ (oo)\_______ (__)\ )\/\ ||----w | || || Today at work, had to demonstrate a proof of concept (POC) related to message queues, so need to spin-up a rabbitmq server. &amp;ldquo;Play with Docker&amp;rdquo; come to the rescue. In couple of minutes environment is up and ready.
+docker run -d \ --hostname rabbit-host \ --name rabbit-container \ -p 80:15672 \ -p 5672:5672 \ -e RABBITMQ_DEFAULT_USER=&amp;quot;rabbit&amp;quot; \ -e RABBITMQ_DEFAULT_PASS=&amp;quot;carrot&amp;quot; \ rabbitmq:3-management PORT Description 15672 RabbitMQ Management console uses PORT 15672 for RabbitMQ version 3.</description></item></channel></rss>
