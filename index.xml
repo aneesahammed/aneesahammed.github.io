@@ -1,35 +1,180 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>^^</title><link>https://aneesahammed.github.io/</link><description>Recent content on ^^</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 14 Apr 2021 23:00:00 +0000</lastBuildDate><atom:link href="https://aneesahammed.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>🚀Hugo: Deploy with GitHub Actions</title><link>https://aneesahammed.github.io/posts/hugo-deploy-with-github-actions/</link><pubDate>Wed, 14 Apr 2021 23:00:00 +0000</pubDate><guid>https://aneesahammed.github.io/posts/hugo-deploy-with-github-actions/</guid><description>This post discusses how Hugo, a blazingly fast static site generator written in Golang, can be deployed with GitHub Actions to GitHub pages.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>^^</title>
+    <link>https://aneesahammed.github.io/</link>
+    <description>Recent content on ^^</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Apr 2021 23:00:00 +0000</lastBuildDate><atom:link href="https://aneesahammed.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚀Hugo: Deploy with GitHub Actions</title>
+      <link>https://aneesahammed.github.io/posts/hugo-deploy-with-github-actions/</link>
+      <pubDate>Wed, 14 Apr 2021 23:00:00 +0000</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/hugo-deploy-with-github-actions/</guid>
+      <description>This post discusses how Hugo, a blazingly fast static site generator written in Golang, can be deployed with GitHub Actions to GitHub pages.
 This blog which you are currently reading, is built using Hugo and is hosted on the Github pages.
 Repository structure I&amp;rsquo;ve got a private repository just for the contents &amp;amp; another separate repository to hold the generated files (HTML/CSS).
-Initially, I relied on the Hugo CLI to generate &amp;amp; serve the static page contents each time I create/edit posts.</description></item><item><title>DevOps at scale: GitHub</title><link>https://aneesahammed.github.io/posts/devops-practice-github/</link><pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate><guid>https://aneesahammed.github.io/posts/devops-practice-github/</guid><description>Considering DevOps at scale, being SOC (Service Organization Control) 2 compliant and dealing with hundreds or more projects and engineers at the same time, it&amp;rsquo;s nearly impossible to impart &amp;ldquo;DevOps culture&amp;rdquo; without putting together team-wide standard practices &amp;amp; policies.
+Initially, I relied on the Hugo CLI to generate &amp;amp; serve the static page contents each time I create/edit posts.</description>
+    </item>
+    
+    <item>
+      <title>DevOps at scale: GitHub</title>
+      <link>https://aneesahammed.github.io/posts/devops-practice-github/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/devops-practice-github/</guid>
+      <description>Considering DevOps at scale, being SOC (Service Organization Control) 2 compliant and dealing with hundreds or more projects and engineers at the same time, it&amp;rsquo;s nearly impossible to impart &amp;ldquo;DevOps culture&amp;rdquo; without putting together team-wide standard practices &amp;amp; policies.
 Below are the few DevOps onboarding practices/recommendations particularly related to Git/GitHub being followed while selecting a candidate application or service for DevOps onboarding.
-Git Git, as Wikipedia says is a distributed version control system for tracking changes in source code during software development Most importantly adopting a consistent naming convention &amp;amp; repository structure across the organization is essential.</description></item><item><title>snapcircle🎯</title><link>https://aneesahammed.github.io/posts/snapcircle/</link><pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate><guid>https://aneesahammed.github.io/posts/snapcircle/</guid><description>I was not a regular coffee☕️ person before coming here in Ireland🇮🇪. The plausible cause could be that I have spent a good 8 years of my life in Dubai🏙. Gradually I started blending into the coffee☕️ culture of Ireland - a morning coffee from nearby coffee-shop, another one at the office before getting into the routine agile sprint, it was much needed to keep me awake👀 ;). Last but not least a coffee from &amp;ldquo;seven-wonders&amp;rdquo; while walking back to my apartment.</description></item><item><title>glimpses Insights</title><link>https://aneesahammed.github.io/posts/glimpses-insights/</link><pubDate>Tue, 30 Jul 2019 23:00:00 +0000</pubDate><guid>https://aneesahammed.github.io/posts/glimpses-insights/</guid><description>This post is about a simple interactive visualizaton I made of glimpses analytics data, which reflects the global distribution of glimpses users with maximum sessions.
+Git Git, as Wikipedia says is a distributed version control system for tracking changes in source code during software development Most importantly adopting a consistent naming convention &amp;amp; repository structure across the organization is essential.</description>
+    </item>
+    
+    <item>
+      <title>snapcircle🎯</title>
+      <link>https://aneesahammed.github.io/posts/snapcircle/</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/snapcircle/</guid>
+      <description>I was not a regular coffee☕️ person before coming here in Ireland🇮🇪. The plausible cause could be that I have spent a good 8 years of my life in Dubai🏙. Gradually I started blending into the coffee☕️ culture of Ireland - a morning coffee from nearby coffee-shop, another one at the office before getting into the routine agile sprint, it was much needed to keep me awake👀 ;). Last but not least a coffee from &amp;ldquo;seven-wonders&amp;rdquo; while walking back to my apartment.</description>
+    </item>
+    
+    <item>
+      <title>glimpses Insights</title>
+      <link>https://aneesahammed.github.io/posts/glimpses-insights/</link>
+      <pubDate>Tue, 30 Jul 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/glimpses-insights/</guid>
+      <description>This post is about a simple interactive visualizaton I made of glimpses analytics data, which reflects the global distribution of glimpses users with maximum sessions.
 Thanks to Tableau Public and github-pages, I found these two solutions immensly helpful in creating, embedding and publishing viz.
-Tableau Public is a free software that can connect to a file (Excel, CSV, JSON..) or to a server and create stunning interactive data visualizations for the web.</description></item><item><title>3 simple steps to keep your daily log 📝</title><link>https://aneesahammed.github.io/posts/daily-log/</link><pubDate>Fri, 03 May 2019 23:00:00 +0000</pubDate><guid>https://aneesahammed.github.io/posts/daily-log/</guid><description>For me, it is important to keep track of daily tasks I do at work. And there are loads of tools 🔧 available to help you do that.
+Tableau Public is a free software that can connect to a file (Excel, CSV, JSON..) or to a server and create stunning interactive data visualizations for the web.</description>
+    </item>
+    
+    <item>
+      <title>3 simple steps to keep your daily log 📝</title>
+      <link>https://aneesahammed.github.io/posts/daily-log/</link>
+      <pubDate>Fri, 03 May 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/daily-log/</guid>
+      <description>For me, it is important to keep track of daily tasks I do at work. And there are loads of tools 🔧 available to help you do that.
 However most of the time, on your work machine / office laptop 💻, you do not have the privilege to install the tool of your choice.
-So here, I just wanted to share a little-known simple &amp;amp; neat trick 🔨, that I have been using more than a decade successfully which is built right into the Window’s default Notepad app.</description></item><item><title>GitHub Auto Tagger</title><link>https://aneesahammed.github.io/posts/github-auto-tagger/</link><pubDate>Wed, 10 Apr 2019 23:00:00 +0000</pubDate><guid>https://aneesahammed.github.io/posts/github-auto-tagger/</guid><description>I keep track of all my development work using GitHub project boards.
+So here, I just wanted to share a little-known simple &amp;amp; neat trick 🔨, that I have been using more than a decade successfully which is built right into the Window’s default Notepad app.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Auto Tagger</title>
+      <link>https://aneesahammed.github.io/posts/github-auto-tagger/</link>
+      <pubDate>Wed, 10 Apr 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/github-auto-tagger/</guid>
+      <description>I keep track of all my development work using GitHub project boards.
 It not only helps me to see where work is flowing, queued or stalled but also to make our work visible and transparent as possible.
-To simplify, automate &amp;amp; improve GitHub issue management workflow therefore to scratch my own itch, I made a simple GitHub Probot app autotagger. It automatically tags the GitHub Issues based on the matched pattern.</description></item><item><title>RabbitMQ 🐰</title><link>https://aneesahammed.github.io/posts/rabbitmq/</link><pubDate>Mon, 05 Nov 2018 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/rabbitmq/</guid><description>_______________ &amp;lt; Im not rabbit!! &amp;gt; --------------- \ ^__^ \ (oo)\_______ (__)\ )\/\ ||----w | || || Today at work, had to demonstrate a proof of concept (POC) related to message queues, so need to spin-up a rabbitmq server. &amp;ldquo;Play with Docker&amp;rdquo; come to the rescue. In couple of minutes environment is up and ready.
-docker run -d \ --hostname rabbit-host \ --name rabbit-container \ -p 80:15672 \ -p 5672:5672 \ -e RABBITMQ_DEFAULT_USER=&amp;quot;rabbit&amp;quot; \ -e RABBITMQ_DEFAULT_PASS=&amp;quot;carrot&amp;quot; \ rabbitmq:3-management PORT Description 15672 RabbitMQ Management console uses PORT 15672 for RabbitMQ version 3.</description></item><item><title>Play with docker 🐳</title><link>https://aneesahammed.github.io/posts/play-with-docker/</link><pubDate>Wed, 31 Oct 2018 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/play-with-docker/</guid><description>🐳 Prerequisite Make sure you have already created a Docker Hub account.
+To simplify, automate &amp;amp; improve GitHub issue management workflow therefore to scratch my own itch, I made a simple GitHub Probot app autotagger. It automatically tags the GitHub Issues based on the matched pattern.</description>
+    </item>
+    
+    <item>
+      <title>RabbitMQ 🐰</title>
+      <link>https://aneesahammed.github.io/posts/rabbitmq/</link>
+      <pubDate>Mon, 05 Nov 2018 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/rabbitmq/</guid>
+      <description>_______________ &amp;lt; Im not rabbit!! &amp;gt; --------------- \  ^__^ \  (oo)\_______ (__)\  )\/\  ||----w | || || Today at work, had to demonstrate a proof of concept (POC) related to message queues, so need to spin-up a rabbitmq server. &amp;ldquo;Play with Docker&amp;rdquo; come to the rescue. In couple of minutes environment is up and ready.
+docker run -d \ --hostname rabbit-host \ --name rabbit-container \ -p 80:15672 \ -p 5672:5672 \ -e RABBITMQ_DEFAULT_USER=&amp;quot;rabbit&amp;quot; \ -e RABBITMQ_DEFAULT_PASS=&amp;quot;carrot&amp;quot; \ rabbitmq:3-management     PORT Description     15672 RabbitMQ Management console uses PORT 15672 for RabbitMQ version 3.</description>
+    </item>
+    
+    <item>
+      <title>Play with docker 🐳</title>
+      <link>https://aneesahammed.github.io/posts/play-with-docker/</link>
+      <pubDate>Wed, 31 Oct 2018 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/play-with-docker/</guid>
+      <description>🐳 Prerequisite Make sure you have already created a Docker Hub account.
 PWD This post is about &amp;ldquo;Play with Docker&amp;rdquo; chrome-extension. Play with Docker(PWD) by itself is a simple, interactive and fun playground to learn Docker. This will give you a throwaway *nix shell, in which you can safely play with docker.
-Extension adds a &amp;ldquo;Try in PWD&amp;rdquo; button on any Docker Hub image page. Here is a short demo of same.</description></item><item><title>CURL</title><link>https://aneesahammed.github.io/posts/curl/</link><pubDate>Mon, 29 Oct 2018 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/curl/</guid><description>As part of my journey as a developer and decision to document my learning, I&amp;rsquo;ve been thinking of writing a short post regarding curl, here it is.
+Extension adds a &amp;ldquo;Try in PWD&amp;rdquo; button on any Docker Hub image page. Here is a short demo of same.</description>
+    </item>
+    
+    <item>
+      <title>CURL</title>
+      <link>https://aneesahammed.github.io/posts/curl/</link>
+      <pubDate>Mon, 29 Oct 2018 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/curl/</guid>
+      <description>As part of my journey as a developer and decision to document my learning, I&amp;rsquo;ve been thinking of writing a short post regarding curl, here it is.
 Curl is a command line tool for transferring data to and from a server. Curl stands for Client URL and was developed by a Swedish developer Daniel Stenberg @bagder.
-It covers many protocols like HTTP, FTP, IMAP, POP3 &amp;amp; SMTP, It usually comes pre-installed in most of Linux distros and modern versions of OS X.</description></item><item><title>ഐറിഷ് ബ്രേക്‌ഫാസ്റ്</title><link>https://aneesahammed.github.io/posts/irish-breakfast/</link><pubDate>Sat, 07 Oct 2017 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/irish-breakfast/</guid><description>ഐറിഷ് ബ്രേക്‌ഫാസ്റ്
+It covers many protocols like HTTP, FTP, IMAP, POP3 &amp;amp; SMTP, It usually comes pre-installed in most of Linux distros and modern versions of OS X.</description>
+    </item>
+    
+    <item>
+      <title>ഐറിഷ് ബ്രേക്‌ഫാസ്റ്</title>
+      <link>https://aneesahammed.github.io/posts/irish-breakfast/</link>
+      <pubDate>Sat, 07 Oct 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/irish-breakfast/</guid>
+      <description>ഐറിഷ് ബ്രേക്‌ഫാസ്റ്
 സൂര്യൻ ഉദിച്ചെന്നു ഉറപ്പു വരുത്തി, ഇന്നലെ രാത്രി ഗൂഗിൾ തിരച്ചിലിൽ നിന്നും കണ്ടു വച്ച &amp;lsquo;മസാല&amp;rsquo; എന്ന ഇന്ത്യൻ ഹോട്ടലും തേടി ഇറങ്ങി. ചെറിയ മഴ ചാറലും കാറ്റും ഉണ്ട് .കാലാവസ്ഥ മാറാൻ തുടങ്ങി ഇരിക്കുന്നു. അതൊന്നും വക വെക്കാതെ, നല്ല മസാല ദോശയും ഫിൽറ്റർ കോഫിയും സ്വപ്നം കണ്ടു വായിൽ കപ്പൽ ഓടിക്കാനുള്ള വെള്ളവും, വയറ്റിലെ ഗുളു ഗുളു ശബ്ദവും ഒക്കെ ആയി, ഹോട്ടലിനടുത്തെത്തിയപ്പോഴാണ് മനസ്സിലായത്, ഇവിടെ മിക്ക ഹോട്ടലുകളും വൈകീട്ടു 5 നു മാത്രമേ തുറക്കൂ എന്ന് .
-വിശന്നു വിഷണ്ണനായി റൂമിൽ തിരികെ വന്നു. എന്തായാലും ഇന്ന് വല്ലതും കഴിച്ചിട്ട് തന്നെ എന്നുറപ്പിച്ചു ഹോട്ടൽ റെസ്റ്റാറ്റാന്റിലേക്ക്‌ വിളിച്ചു, രണ്ടു തരം ഭക്ഷണമാണുള്ളത് കോണ്ടിനെന്റൽ &amp;amp; ഫുൾ ഐറിഷ് ബ്രേക്‌ഫാസ്റ്.</description></item><item><title>Rapid Prototyping</title><link>https://aneesahammed.github.io/posts/rapid-prototype/</link><pubDate>Sun, 20 Aug 2017 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/rapid-prototype/</guid><description>This is to document my last remote consulting experience for a Mobile Application.
+വിശന്നു വിഷണ്ണനായി റൂമിൽ തിരികെ വന്നു. എന്തായാലും ഇന്ന് വല്ലതും കഴിച്ചിട്ട് തന്നെ എന്നുറപ്പിച്ചു ഹോട്ടൽ റെസ്റ്റാറ്റാന്റിലേക്ക്‌ വിളിച്ചു, രണ്ടു തരം ഭക്ഷണമാണുള്ളത് കോണ്ടിനെന്റൽ &amp;amp; ഫുൾ ഐറിഷ് ബ്രേക്‌ഫാസ്റ്.</description>
+    </item>
+    
+    <item>
+      <title>Rapid Prototyping</title>
+      <link>https://aneesahammed.github.io/posts/rapid-prototype/</link>
+      <pubDate>Sun, 20 Aug 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/rapid-prototype/</guid>
+      <description>This is to document my last remote consulting experience for a Mobile Application.
 In order to get clarity in design, we often go through a prototype phase. This is an important phase as this allows you to refine the user experience.
-Although there are a huge number of tools out there that are dedicated solely to prototyping. I&amp;rsquo;ve seen effective prototypes made with PowerPoint, Keynote, Acrobat, and Word. If you&amp;rsquo;re a designer and have skills in programs like high-end graphic software like Sketch.</description></item><item><title>XAML Styler for Visual Studio Mac</title><link>https://aneesahammed.github.io/posts/xaml-styler/</link><pubDate>Mon, 14 Aug 2017 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/xaml-styler/</guid><description>If you have already worked on WPF or Windows Phone projects, you might have used the XAML Styler. Which is a visual studio extension for formatting XAML source code, which helps in maintaining better XAML coding style and better XAML readability.
+Although there are a huge number of tools out there that are dedicated solely to prototyping. I&amp;rsquo;ve seen effective prototypes made with PowerPoint, Keynote, Acrobat, and Word. If you&amp;rsquo;re a designer and have skills in programs like high-end graphic software like Sketch.</description>
+    </item>
+    
+    <item>
+      <title>XAML Styler for Visual Studio Mac</title>
+      <link>https://aneesahammed.github.io/posts/xaml-styler/</link>
+      <pubDate>Mon, 14 Aug 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/xaml-styler/</guid>
+      <description>If you have already worked on WPF or Windows Phone projects, you might have used the XAML Styler. Which is a visual studio extension for formatting XAML source code, which helps in maintaining better XAML coding style and better XAML readability.
 Even though “Visual Studio for Mac” was available, I kept using Xamarin Studio because XAML Styler extension was not supported in VS for MAC.
-Finally, Ben Lacey got a version compatible with VS for Mac.</description></item><item><title>Working with Microsoft</title><link>https://aneesahammed.github.io/posts/microsoft/</link><pubDate>Thu, 10 Aug 2017 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/microsoft/</guid><description>A couple of months back I got a chance to work with **Microsoft Middle East, Dubai ** to port the glimpses win32 app into Microsoft Store.
+Finally, Ben Lacey got a version compatible with VS for Mac.</description>
+    </item>
+    
+    <item>
+      <title>Working with Microsoft</title>
+      <link>https://aneesahammed.github.io/posts/microsoft/</link>
+      <pubDate>Thu, 10 Aug 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/microsoft/</guid>
+      <description>A couple of months back I got a chance to work with **Microsoft Middle East, Dubai ** to port the glimpses win32 app into Microsoft Store.
 It was really important for us to be able to take advantage of the best that windows 10 has to offer without rebuilding the glimpses app.
-Desktop Bridge provided the perfect solution for us to be able to keep all the work we’ve done before and embrace future, it is an obvious choice for us to give a more trustworthy source to users.</description></item><item><title>Record your screen on Android!!</title><link>https://aneesahammed.github.io/posts/record-android-screen/</link><pubDate>Wed, 14 Jun 2017 10:36:55 +0000</pubDate><guid>https://aneesahammed.github.io/posts/record-android-screen/</guid><description>Ever wanted to record a tutorial or wanted to create a demo of your app you&amp;rsquo;d need to capture the screen in real time. Without installing any of third-party software this is daunting. So below is one of the easy steps to follow for geeks in you.
+Desktop Bridge provided the perfect solution for us to be able to keep all the work we’ve done before and embrace future, it is an obvious choice for us to give a more trustworthy source to users.</description>
+    </item>
+    
+    <item>
+      <title>Record your screen on Android!!</title>
+      <link>https://aneesahammed.github.io/posts/record-android-screen/</link>
+      <pubDate>Wed, 14 Jun 2017 10:36:55 +0000</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/record-android-screen/</guid>
+      <description>Ever wanted to record a tutorial or wanted to create a demo of your app you&amp;rsquo;d need to capture the screen in real time. Without installing any of third-party software this is daunting. So below is one of the easy steps to follow for geeks in you.
 Download the platform-tools from below URL if you don&amp;rsquo;t have Android Studio installed.
-developer.android.com Connect your Android Phone to your computer. Make sure you have selected the option &amp;ldquo;Use USB for&amp;rdquo; to &amp;ldquo;File transfers&amp;rdquo; Open the command prompt (Win+R) Enter the below command adb shell and press &amp;ldquo;Enter&amp;rdquo; key Write the below command to record the screen screenrecord /sdcard/download/fileName.</description></item><item><title>Hello World</title><link>https://aneesahammed.github.io/posts/hello-world/</link><pubDate>Sun, 14 May 2017 10:36:55 +0000</pubDate><guid>https://aneesahammed.github.io/posts/hello-world/</guid><description>&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-shell" data-lang="shell">_____________
+developer.android.com  Connect your Android Phone to your computer. Make sure you have selected the option &amp;ldquo;Use USB for&amp;rdquo; to &amp;ldquo;File transfers&amp;rdquo;  Open the command prompt (Win+R) Enter the below command adb shell and press &amp;ldquo;Enter&amp;rdquo; key Write the below command to record the screen screenrecord /sdcard/download/fileName.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://aneesahammed.github.io/posts/hello-world/</link>
+      <pubDate>Sun, 14 May 2017 10:36:55 +0000</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/hello-world/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;_____________
 &amp;lt; Hello World &amp;gt;
--------------
-&lt;span style="color:#ae81ff">\ &lt;/span> ^__^
-&lt;span style="color:#ae81ff">\ &lt;/span> &lt;span style="color:#f92672">(&lt;/span>oo&lt;span style="color:#f92672">)&lt;/span>&lt;span style="color:#ae81ff">\_&lt;/span>______
-&lt;span style="color:#f92672">(&lt;/span>__&lt;span style="color:#f92672">)&lt;/span>&lt;span style="color:#ae81ff">\ &lt;/span> &lt;span style="color:#f92672">)&lt;/span>&lt;span style="color:#ae81ff">\/\
-&lt;/span>&lt;span style="color:#ae81ff">&lt;/span> &lt;span style="color:#f92672">||&lt;/span>----w |
-&lt;span style="color:#f92672">||&lt;/span> &lt;span style="color:#f92672">||&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Hello, World!! I have wanted to start my own blog hosted on github.io for a while now.&lt;/p></description></item></channel></rss>
+ -------------
+        &lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;  ^__^
+         &lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;oo&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\_&lt;/span&gt;______
+            &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;__&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\/\
+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;                &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt;----w |
+                &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt;     &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hello, World!! I have wanted to start my own blog hosted on github.io for a while now.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

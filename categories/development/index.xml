@@ -1,21 +1,94 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>development on ^^</title><link>https://aneesahammed.github.io/categories/development/</link><description>Recent content in development on ^^</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 10 Apr 2019 23:00:00 +0000</lastBuildDate><atom:link href="https://aneesahammed.github.io/categories/development/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub Auto Tagger</title><link>https://aneesahammed.github.io/posts/github-auto-tagger/</link><pubDate>Wed, 10 Apr 2019 23:00:00 +0000</pubDate><guid>https://aneesahammed.github.io/posts/github-auto-tagger/</guid><description>I keep track of all my development work using GitHub project boards.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>development on ^^</title>
+    <link>https://aneesahammed.github.io/categories/development/</link>
+    <description>Recent content in development on ^^</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 10 Apr 2019 23:00:00 +0000</lastBuildDate><atom:link href="https://aneesahammed.github.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Auto Tagger</title>
+      <link>https://aneesahammed.github.io/posts/github-auto-tagger/</link>
+      <pubDate>Wed, 10 Apr 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/github-auto-tagger/</guid>
+      <description>I keep track of all my development work using GitHub project boards.
 It not only helps me to see where work is flowing, queued or stalled but also to make our work visible and transparent as possible.
-To simplify, automate &amp;amp; improve GitHub issue management workflow therefore to scratch my own itch, I made a simple GitHub Probot app autotagger. It automatically tags the GitHub Issues based on the matched pattern.</description></item><item><title>CURL</title><link>https://aneesahammed.github.io/posts/curl/</link><pubDate>Mon, 29 Oct 2018 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/curl/</guid><description>As part of my journey as a developer and decision to document my learning, I&amp;rsquo;ve been thinking of writing a short post regarding curl, here it is.
+To simplify, automate &amp;amp; improve GitHub issue management workflow therefore to scratch my own itch, I made a simple GitHub Probot app autotagger. It automatically tags the GitHub Issues based on the matched pattern.</description>
+    </item>
+    
+    <item>
+      <title>CURL</title>
+      <link>https://aneesahammed.github.io/posts/curl/</link>
+      <pubDate>Mon, 29 Oct 2018 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/curl/</guid>
+      <description>As part of my journey as a developer and decision to document my learning, I&amp;rsquo;ve been thinking of writing a short post regarding curl, here it is.
 Curl is a command line tool for transferring data to and from a server. Curl stands for Client URL and was developed by a Swedish developer Daniel Stenberg @bagder.
-It covers many protocols like HTTP, FTP, IMAP, POP3 &amp;amp; SMTP, It usually comes pre-installed in most of Linux distros and modern versions of OS X.</description></item><item><title>Rapid Prototyping</title><link>https://aneesahammed.github.io/posts/rapid-prototype/</link><pubDate>Sun, 20 Aug 2017 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/rapid-prototype/</guid><description>This is to document my last remote consulting experience for a Mobile Application.
+It covers many protocols like HTTP, FTP, IMAP, POP3 &amp;amp; SMTP, It usually comes pre-installed in most of Linux distros and modern versions of OS X.</description>
+    </item>
+    
+    <item>
+      <title>Rapid Prototyping</title>
+      <link>https://aneesahammed.github.io/posts/rapid-prototype/</link>
+      <pubDate>Sun, 20 Aug 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/rapid-prototype/</guid>
+      <description>This is to document my last remote consulting experience for a Mobile Application.
 In order to get clarity in design, we often go through a prototype phase. This is an important phase as this allows you to refine the user experience.
-Although there are a huge number of tools out there that are dedicated solely to prototyping. I&amp;rsquo;ve seen effective prototypes made with PowerPoint, Keynote, Acrobat, and Word. If you&amp;rsquo;re a designer and have skills in programs like high-end graphic software like Sketch.</description></item><item><title>XAML Styler for Visual Studio Mac</title><link>https://aneesahammed.github.io/posts/xaml-styler/</link><pubDate>Mon, 14 Aug 2017 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/xaml-styler/</guid><description>If you have already worked on WPF or Windows Phone projects, you might have used the XAML Styler. Which is a visual studio extension for formatting XAML source code, which helps in maintaining better XAML coding style and better XAML readability.
+Although there are a huge number of tools out there that are dedicated solely to prototyping. I&amp;rsquo;ve seen effective prototypes made with PowerPoint, Keynote, Acrobat, and Word. If you&amp;rsquo;re a designer and have skills in programs like high-end graphic software like Sketch.</description>
+    </item>
+    
+    <item>
+      <title>XAML Styler for Visual Studio Mac</title>
+      <link>https://aneesahammed.github.io/posts/xaml-styler/</link>
+      <pubDate>Mon, 14 Aug 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/xaml-styler/</guid>
+      <description>If you have already worked on WPF or Windows Phone projects, you might have used the XAML Styler. Which is a visual studio extension for formatting XAML source code, which helps in maintaining better XAML coding style and better XAML readability.
 Even though “Visual Studio for Mac” was available, I kept using Xamarin Studio because XAML Styler extension was not supported in VS for MAC.
-Finally, Ben Lacey got a version compatible with VS for Mac.</description></item><item><title>Working with Microsoft</title><link>https://aneesahammed.github.io/posts/microsoft/</link><pubDate>Thu, 10 Aug 2017 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/microsoft/</guid><description>A couple of months back I got a chance to work with **Microsoft Middle East, Dubai ** to port the glimpses win32 app into Microsoft Store.
+Finally, Ben Lacey got a version compatible with VS for Mac.</description>
+    </item>
+    
+    <item>
+      <title>Working with Microsoft</title>
+      <link>https://aneesahammed.github.io/posts/microsoft/</link>
+      <pubDate>Thu, 10 Aug 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/microsoft/</guid>
+      <description>A couple of months back I got a chance to work with **Microsoft Middle East, Dubai ** to port the glimpses win32 app into Microsoft Store.
 It was really important for us to be able to take advantage of the best that windows 10 has to offer without rebuilding the glimpses app.
-Desktop Bridge provided the perfect solution for us to be able to keep all the work we’ve done before and embrace future, it is an obvious choice for us to give a more trustworthy source to users.</description></item><item><title>Record your screen on Android!!</title><link>https://aneesahammed.github.io/posts/record-android-screen/</link><pubDate>Wed, 14 Jun 2017 10:36:55 +0000</pubDate><guid>https://aneesahammed.github.io/posts/record-android-screen/</guid><description>Ever wanted to record a tutorial or wanted to create a demo of your app you&amp;rsquo;d need to capture the screen in real time. Without installing any of third-party software this is daunting. So below is one of the easy steps to follow for geeks in you.
+Desktop Bridge provided the perfect solution for us to be able to keep all the work we’ve done before and embrace future, it is an obvious choice for us to give a more trustworthy source to users.</description>
+    </item>
+    
+    <item>
+      <title>Record your screen on Android!!</title>
+      <link>https://aneesahammed.github.io/posts/record-android-screen/</link>
+      <pubDate>Wed, 14 Jun 2017 10:36:55 +0000</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/record-android-screen/</guid>
+      <description>Ever wanted to record a tutorial or wanted to create a demo of your app you&amp;rsquo;d need to capture the screen in real time. Without installing any of third-party software this is daunting. So below is one of the easy steps to follow for geeks in you.
 Download the platform-tools from below URL if you don&amp;rsquo;t have Android Studio installed.
-developer.android.com Connect your Android Phone to your computer. Make sure you have selected the option &amp;ldquo;Use USB for&amp;rdquo; to &amp;ldquo;File transfers&amp;rdquo; Open the command prompt (Win+R) Enter the below command adb shell and press &amp;ldquo;Enter&amp;rdquo; key Write the below command to record the screen screenrecord /sdcard/download/fileName.</description></item><item><title>Hello World</title><link>https://aneesahammed.github.io/posts/hello-world/</link><pubDate>Sun, 14 May 2017 10:36:55 +0000</pubDate><guid>https://aneesahammed.github.io/posts/hello-world/</guid><description>&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-shell" data-lang="shell">_____________
+developer.android.com  Connect your Android Phone to your computer. Make sure you have selected the option &amp;ldquo;Use USB for&amp;rdquo; to &amp;ldquo;File transfers&amp;rdquo;  Open the command prompt (Win+R) Enter the below command adb shell and press &amp;ldquo;Enter&amp;rdquo; key Write the below command to record the screen screenrecord /sdcard/download/fileName.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://aneesahammed.github.io/posts/hello-world/</link>
+      <pubDate>Sun, 14 May 2017 10:36:55 +0000</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/hello-world/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;_____________
 &amp;lt; Hello World &amp;gt;
--------------
-&lt;span style="color:#ae81ff">\ &lt;/span> ^__^
-&lt;span style="color:#ae81ff">\ &lt;/span> &lt;span style="color:#f92672">(&lt;/span>oo&lt;span style="color:#f92672">)&lt;/span>&lt;span style="color:#ae81ff">\_&lt;/span>______
-&lt;span style="color:#f92672">(&lt;/span>__&lt;span style="color:#f92672">)&lt;/span>&lt;span style="color:#ae81ff">\ &lt;/span> &lt;span style="color:#f92672">)&lt;/span>&lt;span style="color:#ae81ff">\/\
-&lt;/span>&lt;span style="color:#ae81ff">&lt;/span> &lt;span style="color:#f92672">||&lt;/span>----w |
-&lt;span style="color:#f92672">||&lt;/span> &lt;span style="color:#f92672">||&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Hello, World!! I have wanted to start my own blog hosted on github.io for a while now.&lt;/p></description></item></channel></rss>
+ -------------
+        &lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;  ^__^
+         &lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;oo&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\_&lt;/span&gt;______
+            &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;__&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\ &lt;/span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\/\
+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;                &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt;----w |
+                &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt;     &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hello, World!! I have wanted to start my own blog hosted on github.io for a while now.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

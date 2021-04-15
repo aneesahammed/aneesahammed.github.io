@@ -1,7 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mobile on ^^</title><link>https://aneesahammed.github.io/categories/mobile/</link><description>Recent content in mobile on ^^</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 20 Aug 2017 11:36:55 +0100</lastBuildDate><atom:link href="https://aneesahammed.github.io/categories/mobile/index.xml" rel="self" type="application/rss+xml"/><item><title>Rapid Prototyping</title><link>https://aneesahammed.github.io/posts/rapid-prototype/</link><pubDate>Sun, 20 Aug 2017 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/rapid-prototype/</guid><description>This is to document my last remote consulting experience for a Mobile Application.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mobile on ^^</title>
+    <link>https://aneesahammed.github.io/categories/mobile/</link>
+    <description>Recent content in mobile on ^^</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Aug 2017 11:36:55 +0100</lastBuildDate><atom:link href="https://aneesahammed.github.io/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rapid Prototyping</title>
+      <link>https://aneesahammed.github.io/posts/rapid-prototype/</link>
+      <pubDate>Sun, 20 Aug 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/rapid-prototype/</guid>
+      <description>This is to document my last remote consulting experience for a Mobile Application.
 In order to get clarity in design, we often go through a prototype phase. This is an important phase as this allows you to refine the user experience.
-Although there are a huge number of tools out there that are dedicated solely to prototyping. I&amp;rsquo;ve seen effective prototypes made with PowerPoint, Keynote, Acrobat, and Word. If you&amp;rsquo;re a designer and have skills in programs like high-end graphic software like Sketch.</description></item><item><title>Working with Microsoft</title><link>https://aneesahammed.github.io/posts/microsoft/</link><pubDate>Thu, 10 Aug 2017 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/microsoft/</guid><description>A couple of months back I got a chance to work with **Microsoft Middle East, Dubai ** to port the glimpses win32 app into Microsoft Store.
+Although there are a huge number of tools out there that are dedicated solely to prototyping. I&amp;rsquo;ve seen effective prototypes made with PowerPoint, Keynote, Acrobat, and Word. If you&amp;rsquo;re a designer and have skills in programs like high-end graphic software like Sketch.</description>
+    </item>
+    
+    <item>
+      <title>Working with Microsoft</title>
+      <link>https://aneesahammed.github.io/posts/microsoft/</link>
+      <pubDate>Thu, 10 Aug 2017 11:36:55 +0100</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/microsoft/</guid>
+      <description>A couple of months back I got a chance to work with **Microsoft Middle East, Dubai ** to port the glimpses win32 app into Microsoft Store.
 It was really important for us to be able to take advantage of the best that windows 10 has to offer without rebuilding the glimpses app.
-Desktop Bridge provided the perfect solution for us to be able to keep all the work we’ve done before and embrace future, it is an obvious choice for us to give a more trustworthy source to users.</description></item><item><title>Record your screen on Android!!</title><link>https://aneesahammed.github.io/posts/record-android-screen/</link><pubDate>Wed, 14 Jun 2017 10:36:55 +0000</pubDate><guid>https://aneesahammed.github.io/posts/record-android-screen/</guid><description>Ever wanted to record a tutorial or wanted to create a demo of your app you&amp;rsquo;d need to capture the screen in real time. Without installing any of third-party software this is daunting. So below is one of the easy steps to follow for geeks in you.
+Desktop Bridge provided the perfect solution for us to be able to keep all the work we’ve done before and embrace future, it is an obvious choice for us to give a more trustworthy source to users.</description>
+    </item>
+    
+    <item>
+      <title>Record your screen on Android!!</title>
+      <link>https://aneesahammed.github.io/posts/record-android-screen/</link>
+      <pubDate>Wed, 14 Jun 2017 10:36:55 +0000</pubDate>
+      
+      <guid>https://aneesahammed.github.io/posts/record-android-screen/</guid>
+      <description>Ever wanted to record a tutorial or wanted to create a demo of your app you&amp;rsquo;d need to capture the screen in real time. Without installing any of third-party software this is daunting. So below is one of the easy steps to follow for geeks in you.
 Download the platform-tools from below URL if you don&amp;rsquo;t have Android Studio installed.
-developer.android.com Connect your Android Phone to your computer. Make sure you have selected the option &amp;ldquo;Use USB for&amp;rdquo; to &amp;ldquo;File transfers&amp;rdquo; Open the command prompt (Win+R) Enter the below command adb shell and press &amp;ldquo;Enter&amp;rdquo; key Write the below command to record the screen screenrecord /sdcard/download/fileName.</description></item></channel></rss>
+developer.android.com  Connect your Android Phone to your computer. Make sure you have selected the option &amp;ldquo;Use USB for&amp;rdquo; to &amp;ldquo;File transfers&amp;rdquo;  Open the command prompt (Win+R) Enter the below command adb shell and press &amp;ldquo;Enter&amp;rdquo; key Write the below command to record the screen screenrecord /sdcard/download/fileName.</description>
+    </item>
+    
+  </channel>
+</rss>
