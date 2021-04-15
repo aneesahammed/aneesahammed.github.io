@@ -72,8 +72,8 @@
                     </h1>
                     <h2 class="headline">
                     Apr 14, 2021 23:00
-                    · 342 words
-                    · 2 minute read
+                    · 506 words
+                    · 3 minute read
                       <span class="tags">
                       
                       
@@ -127,7 +127,49 @@
 <h2 id="action-with-github-action">Action with GitHub Action</h2>
 <p><strong>GitHub Actions</strong> make it easy to automate all your software workflows. I must say it is so easy to get your head around.</p>
 <p>I just wanted to share the <strong>YML</strong> file here, which I&rsquo;ve used for the continuous deployment to help somebody in my situation.</p>
-<!-- raw HTML omitted -->
+<pre><code># Workflow to help you get started with Hugo deployment
+
+name: Deploy
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: master
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called &quot;deploy&quot;
+  deploy:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      
+      # Github Actions fo Hugo
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: &quot;0.81.0&quot;
+      
+      # Creates ./public directory
+      - name: Build
+        run: hugo --minify
+      
+      # Upload/Commit the contents from publish_dir -&gt; external_repository
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          external_repository: aneesahammed/aneesahammed.github.io
+          publish_branch: master
+          personal_token: ${{secrets.GH_TOKEN}}
+          user_name: aneesahammed
+          user_email: aneesahammed@mail.com
+          publish_dir: ./public
+</code></pre>
 <p>Please check out the below link for more info on Hugo setup GitHub Actions: <a href="https://github.com/marketplace/actions/hugo-setup" title="https://github.com/marketplace/actions/hugo-setup">https://github.com/marketplace/actions/hugo-setup</a>.</p>
 <p>Also, be noted that the below fields are mandatory since you are deploying to an external repository.</p>
 <ul>
