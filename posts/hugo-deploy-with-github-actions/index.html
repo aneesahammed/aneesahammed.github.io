@@ -3,54 +3,53 @@
 <a href=https://aneesahammed.github.io/tags>Tags</a>
 <a href=https://aneesahammed.github.io/about>About</a>
 <a class=cta href=https://aneesahammed.github.io/index.xml>Subscribe</a></nav><section id=wrapper class=post><article><header><h1>🚀Hugo: Deploy with GitHub Actions</h1><h2 class=headline>Apr 14, 2021 23:00
-· 507 words
-· 3 minute read
+· 834 words
+· 4 minute read
 <span class=tags><a href=https://aneesahammed.github.io/tags/hugo>hugo</a>
 <a href=https://aneesahammed.github.io/tags/github>GitHub</a>
 <a href=https://aneesahammed.github.io/tags/github-actions>GitHub-Actions</a>
 <a href=https://aneesahammed.github.io/tags/ci/cd>CI/CD</a>
-<a href=https://aneesahammed.github.io/tags/github-pages>GitHub-Pages</a></span></h2></header><div id=toc><nav id=TableOfContents><ul><li><a href=#repository-structure>Repository structure</a></li><li><a href=#moving-to-forestry>Moving to forestry</a><ul><li><a href=#no-deployment-support>No deployment support</a></li></ul></li><li><a href=#get-into-action-with-github-action>Get into Action with GitHub Action</a></li></ul></nav></div><section id=post-body><p>This post discusses how <a href=https://gohugo.io/ title="Hugo website">Hugo</a>, a blazingly fast static site generator written in Golang, can be deployed with <a href=https://github.com/features/actions title="GitHub Actions">GitHub Actions</a> to <a href=https://pages.github.com/ title="Github pages">GitHub pages</a>.</p><p>This blog which you are currently reading, is built using Hugo and is hosted on the Github pages.</p><h2 id=repository-structure>Repository structure</h2><p>I&rsquo;ve got a <strong>private repository</strong> just for the contents & another separate <a href=https://github.com/aneesahammed/aneesahammed.github.io>repository</a> to hold the generated files (HTML/CSS).</p><p>Initially, I relied on the <a href=https://gohugo.io/commands/>Hugo CLI</a> to generate & serve the static page contents each time I create/edit posts. However, it was a pain in the neck if you wanted to make/edit a post from a different machine where you cannot have Hugo CLI installed.</p><h2 id=moving-to-forestry>Moving to forestry</h2><p>Later I moved into <a href=https://forestry.io/>forestry</a>, a git-backed CMS for static generated websites. Publishing workflow, i.e. to write, update & publish any blog post, was a lot easier & always felt like a piece of cake in forestry.</p><h3 id=no-deployment-support>No deployment support</h3><p>Last year they removed the support to deploy/publish the posts for Hugo generated websites.</p><blockquote><p>When it comes to automate your deployments and host your static website on a CDN, it&rsquo;s the responsibility of a continuous deployment and hosting service. <a href=https://forestry.io/docs/hosting/. title=https://forestry.io/docs/hosting/.>https://forestry.io/docs/hosting/.</a></p></blockquote><p>So the choice left with me was to go with <a href=https://github.com/features/actions><strong>GitHub Actions</strong></a>.</p><h2 id=get-into-action-with-github-action>Get into Action with GitHub Action</h2><p><strong>GitHub Actions</strong> make it easy to automate all your software workflows. I must say it is so easy to get your head around.</p><p>I just wanted to share the <strong>YML</strong> file here, which I&rsquo;ve used for the continuous deployment to help somebody in my situation.</p><pre><code># Workflow to help you get started with Hugo deployment
+<a href=https://aneesahammed.github.io/tags/github-pages>GitHub-Pages</a></span></h2></header><div id=toc><nav id=TableOfContents><ul><li><a href=#how-i-started-and-why-it-became-a-problem>How I Started (And Why It Became a Problem)</a></li><li><a href=#the-forestry-detour>The Forestry Detour</a><ul><li><a href=#when-things-changed>When Things Changed</a></li></ul></li><li><a href=#enter-github-actions>Enter GitHub Actions</a></li><li><a href=#the-solution-automated-deployment>The Solution: Automated Deployment</a></li><li><a href=#breaking-it-down>Breaking It Down</a></li><li><a href=#setting-up-your-personal-token>Setting Up Your Personal Token</a></li><li><a href=#key-configuration-points>Key Configuration Points</a></li><li><a href=#the-payoff>The Payoff</a></li></ul></nav></div><section id=post-body><p>Setting up automated deployment for my Hugo blog was one of those tasks I kept putting off. You know how it is – the manual process works, so why change it? But once I finally took the plunge with <a href=https://github.com/features/actions title="GitHub Actions">GitHub Actions</a>, I wondered why I waited so long.</p><p>This blog you&rsquo;re reading right now is built with <a href=https://gohugo.io/ title="Hugo website">Hugo</a> (a blazingly fast static site generator written in Go) and automatically deploys to <a href=https://pages.github.com/ title="Github pages">GitHub Pages</a> every time I commit a new post. Let me walk you through how I set it up.</p><h2 id=how-i-started-and-why-it-became-a-problem>How I Started (And Why It Became a Problem)</h2><p>Initially, I had a pretty simple setup. I kept my blog content in a <strong>private repository</strong> and had another separate <a href=https://github.com/aneesahammed/aneesahammed.github.io>repository</a> for the generated HTML/CSS files that GitHub Pages serves.</p><p>My workflow was straightforward but tedious:</p><ol><li>Write a post locally</li><li>Run the <a href=https://gohugo.io/commands/>Hugo CLI</a> to generate the static files</li><li>Manually commit and push the generated files</li></ol><p>This worked fine when I was always writing from my main computer. But try editing a post from a different machine without Hugo installed? That&rsquo;s when things got frustrating fast.</p><h2 id=the-forestry-detour>The Forestry Detour</h2><p>Looking for a better solution, I moved to <a href=https://forestry.io/>Forestry</a> – a git-backed CMS for static websites. It was fantastic! Writing and publishing posts felt effortless, like having a WordPress admin panel for my static site.</p><h3 id=when-things-changed>When Things Changed</h3><p>But last year, Forestry dropped deployment support for Hugo sites. Their reasoning made sense from a business perspective:</p><blockquote><p>When it comes to automate your deployments and host your static website on a CDN, it&rsquo;s the responsibility of a continuous deployment and hosting service. <a href=https://forestry.io/docs/hosting/. title=https://forestry.io/docs/hosting/.>https://forestry.io/docs/hosting/.</a></p></blockquote><p>Suddenly, I was back to manual deployments. That&rsquo;s when I finally embraced <a href=https://github.com/features/actions><strong>GitHub Actions</strong></a>.</p><h2 id=enter-github-actions>Enter GitHub Actions</h2><p><strong>GitHub Actions</strong> is GitHub&rsquo;s built-in automation platform. Think of it as a way to tell GitHub: &ldquo;Hey, whenever I push code to this repository, run these specific tasks automatically.&rdquo;</p><p>For my blog, those tasks are:</p><ol><li>Take my Hugo source files</li><li>Generate the static website</li><li>Push the generated files to my GitHub Pages repository</li></ol><p>The best part? It&rsquo;s surprisingly beginner-friendly once you understand the basic structure.</p><h2 id=the-solution-automated-deployment>The Solution: Automated Deployment</h2><p>Here&rsquo;s the exact GitHub Actions workflow file I use. Don&rsquo;t worry if it looks intimidating – I&rsquo;ll break it down after:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># Workflow to help you get started with Hugo deployment</span>
 
-name: Deploy
+<span style=color:#f92672>name</span>: <span style=color:#ae81ff>Deploy</span>
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
-on:
-  push:
-    branches: master
+<span style=color:#75715e># Controls when the action will run. Triggers the workflow on push or pull request</span>
+<span style=color:#75715e># events but only for the master branch</span>
+<span style=color:#f92672>on</span>:
+  <span style=color:#f92672>push</span>:
+    <span style=color:#f92672>branches</span>: <span style=color:#ae81ff>master</span>
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called &quot;deploy&quot;
-  deploy:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+<span style=color:#75715e># A workflow run is made up of one or more jobs that can run sequentially or in parallel</span>
+<span style=color:#f92672>jobs</span>:
+  <span style=color:#75715e># This workflow contains a single job called &#34;deploy&#34;</span>
+  <span style=color:#f92672>deploy</span>:
+    <span style=color:#75715e># The type of runner that the job will run on</span>
+    <span style=color:#f92672>runs-on</span>: <span style=color:#ae81ff>ubuntu-latest</span>
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      
-      # Github Actions fo Hugo
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: &quot;0.81.0&quot;
-      
-      # Creates ./public directory
-      - name: Build
-        run: hugo --minify
-      
-      # Upload/Commit the contents from publish_dir -&gt; external_repository
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          external_repository: aneesahammed/aneesahammed.github.io
-          publish_branch: master
-          personal_token: ${{secrets.GH_TOKEN}}
-          user_name: aneesahammed
-          user_email: aneesahammed@mail.com
-          publish_dir: ./public
-</code></pre><p>Please check out the below link for more info on Hugo setup GitHub Actions: <a href=https://github.com/marketplace/actions/hugo-setup title=https://github.com/marketplace/actions/hugo-setup>https://github.com/marketplace/actions/hugo-setup</a>.</p><p>Also, be noted that the below fields are mandatory since you are deploying to an external repository.</p><ul><li><strong>external_repository:</strong> external repository where you wanted to deploy.</li><li><strong>publish_branch</strong>: the branch you wanted to publish to.</li><li><strong>personal_token</strong>: Go & generate a personal token from <a href=https://github.com/settings/tokens>here</a> and add it to the secrets tab of your repository</li></ul><p><img src=https://user-images.githubusercontent.com/8899419/114869532-00237380-9def-11eb-8926-9f7e78ea579a.png alt="secrets tab from GitHub repo"></p><p>Now, voila, every <strong>update/commit</strong> on the blog (master branch) triggers the deployment.
-Please <a href=https://twitter.com/aneesahammed>get in touch</a> if you have any more queries.</p><p><img src=https://user-images.githubusercontent.com/8899419/114869995-8d66c800-9def-11eb-91a0-caf290bbce1e.png alt="Deployment success"></p></section></article><a class=twitter href="https://twitter.com/intent/tweet?text=https%3a%2f%2faneesahammed.github.io%2fposts%2fhugo-deploy-with-github-actions%2f - %f0%9f%9a%80Hugo%3a%20Deploy%20with%20GitHub%20Actions by @%40aneesahammed"><span class=icon-twitter>tweet</span></a>
+    <span style=color:#75715e># Steps represent a sequence of tasks that will be executed as part of the job</span>
+    <span style=color:#f92672>steps</span>:
+      <span style=color:#75715e># Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it</span>
+      - <span style=color:#f92672>uses</span>: <span style=color:#ae81ff>actions/checkout@v2</span>
+
+      <span style=color:#75715e># Github Actions fo Hugo</span>
+      - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Setup Hugo</span>
+        <span style=color:#f92672>uses</span>: <span style=color:#ae81ff>peaceiris/actions-hugo@v2</span>
+        <span style=color:#f92672>with</span>:
+          <span style=color:#f92672>hugo-version</span>: <span style=color:#e6db74>&#34;0.81.0&#34;</span>
+
+      <span style=color:#75715e># Creates ./public directory</span>
+      - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Build</span>
+        <span style=color:#f92672>run</span>: <span style=color:#ae81ff>hugo --minify</span>
+
+      <span style=color:#75715e># Upload/Commit the contents from publish_dir -&gt; external_repository</span>
+      - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Deploy</span>
+        <span style=color:#f92672>uses</span>: <span style=color:#ae81ff>peaceiris/actions-gh-pages@v3</span>
+        <span style=color:#f92672>with</span>:
+          <span style=color:#f92672>external_repository</span>: <span style=color:#ae81ff>aneesahammed/aneesahammed.github.io</span>
+          <span style=color:#f92672>publish_branch</span>: <span style=color:#ae81ff>master</span>
+          <span style=color:#f92672>personal_token</span>: <span style=color:#ae81ff>${{secrets.GH_TOKEN}}</span>
+          <span style=color:#f92672>user_name</span>: <span style=color:#ae81ff>aneesahammed</span>
+          <span style=color:#f92672>user_email</span>: <span style=color:#ae81ff>aneesahammed@mail.com</span>
+          <span style=color:#f92672>publish_dir</span>: <span style=color:#ae81ff>./public</span>
+</code></pre></div><h2 id=breaking-it-down>Breaking It Down</h2><p>Let me explain what each part does in plain English:</p><p><strong>The Trigger:</strong> <code>on: push: branches: master</code> means &ldquo;run this workflow whenever I push code to the master branch.&rdquo;</p><p><strong>The Job Steps:</strong></p><ol><li><strong>Checkout:</strong> GitHub grabs my repository files</li><li><strong>Setup Hugo:</strong> Installs Hugo version 0.81.0 on the virtual machine</li><li><strong>Build:</strong> Runs <code>hugo --minify</code> to generate my static site</li><li><strong>Deploy:</strong> Takes the generated files and pushes them to my GitHub Pages repository</li></ol><h2 id=setting-up-your-personal-token>Setting Up Your Personal Token</h2><p>The trickiest part is the <code>personal_token</code> requirement. Since we&rsquo;re pushing to an external repository (your GitHub Pages repo), you need to give GitHub Actions permission to do that.</p><p>Here&rsquo;s how:</p><ol><li>Go to <a href=https://github.com/settings/tokens>GitHub&rsquo;s token settings</a></li><li>Generate a new personal access token with repository permissions</li><li>Add it to your blog repository&rsquo;s secrets (Settings → Secrets → Actions)</li><li>Name it <code>GH_TOKEN</code></li></ol><p><img src=https://user-images.githubusercontent.com/8899419/114869532-00237380-9def-11eb-8926-9f7e78ea579a.png alt="secrets tab from GitHub repo"></p><h2 id=key-configuration-points>Key Configuration Points</h2><p>If you&rsquo;re setting this up for your own blog, you&rsquo;ll need to change these fields:</p><ul><li><strong>external_repository:</strong> Your GitHub Pages repository (usually username.github.io)</li><li><strong>publish_branch:</strong> The branch your GitHub Pages site serves from (usually master or main)</li><li><strong>user_name</strong> and <strong>user_email:</strong> Your GitHub credentials</li></ul><p>For more detailed Hugo setup options, check out the <a href=https://github.com/marketplace/actions/hugo-setup title=https://github.com/marketplace/actions/hugo-setup>Hugo Setup GitHub Action</a>.</p><h2 id=the-payoff>The Payoff</h2><p>Now every time I commit a new post or make changes to my blog, GitHub automatically:</p><ul><li>Builds the site</li><li>Deploys it to GitHub Pages</li><li>Shows me a nice green checkmark when it&rsquo;s done</li></ul><p><img src=https://user-images.githubusercontent.com/8899419/114869995-8d66c800-9def-11eb-91a0-caf290bbce1e.png alt="Deployment success"></p><p>No more manual builds. No more remembering to push generated files. Just write, commit, and let GitHub handle the rest.</p><p>If you&rsquo;re running a Hugo blog and still doing manual deployments, I can&rsquo;t recommend this approach enough. The initial setup takes maybe 30 minutes, but it&rsquo;ll save you hours down the road.</p><p>Got questions about setting this up? Feel free to <a href=https://twitter.com/aneesahammed>reach out on Twitter</a></p></section></article><a class=twitter href="https://twitter.com/intent/tweet?text=https%3a%2f%2faneesahammed.github.io%2fposts%2fhugo-deploy-with-github-actions%2f - %f0%9f%9a%80Hugo%3a%20Deploy%20with%20GitHub%20Actions by @%40aneesahammed"><span class=icon-twitter>tweet</span></a>
 <a class=facebook href=# onclick="return window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'facebook-share-dialog','width=626,height=436'),!1"><span class=icon-facebook-rect>Share</span></a><div id=disqus_thread></div><script type=text/javascript>var disqus_shortname='quarks';(function(){var a=document.createElement('script');a.type='text/javascript',a.async=!0,a.src='//'+disqus_shortname+'.disqus.com/embed.js',(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(a)})()</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript></div><footer id=footer><div id=social><a class=symbol href=https://dev.to/aneesahammed><i class="fa fa-delicious"></i></a><a class=symbol href=https://www.github.com/aneesahammed><i class="fa fa-github-square"></i></a><a class=symbol href=https://www.linkedin.com/in/aneesahammed/><i class="fa fa-linkedin-square"></i></a><a class=symbol href=https://www.twitter.com/aneesahammed><i class="fa fa-twitter-square"></i></a></div><p class=small>© Copyright 2025 <i class="fa fa-heart" aria-hidden=true></i>anees ahammed</p><p class=small>Powered by <a href=http://www.gohugo.io/>Hugo</a> Theme By <a href=https://github.com/nodejh/hugo-theme-cactus-plus>nodejh</a></p></footer></section><script src=https://aneesahammed.github.io/js/jquery-3.3.1.min.js></script><script src=https://aneesahammed.github.io/js/main.js></script><script src=https://aneesahammed.github.io/js/highlight.min.js></script><script>hljs.initHighlightingOnLoad()</script><script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-128646227-1','auto'),ga('send','pageview'))</script></body></html>
