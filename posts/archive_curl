@@ -1,0 +1,153 @@
++++
+categories = ["development"]
+date = "2018-10-29T11:36:55.000+01:00"
+description = "Curl is a command line tool for transfering data to and from a server. it stands for Client URL"
+tags = ["development", "devOps"]
+title = "CURL"
+[menu.main]
+
++++
+![image](https://curl.haxx.se/logo/curl-logo.svg)
+
+As part of my journey as a developer and decision to document my learning,
+I've been thinking of writing a short post regarding curl, here it is.
+
+Curl is a command line tool for transferring data to and from a server.
+Curl stands for **Client URL** and was developed by a Swedish developer **Daniel Stenberg** [@bagder](https://twitter.com/bagder).
+
+It covers many protocols like HTTP, FTP, IMAP, POP3 & SMTP, It usually comes  pre-installed in most of Linux distros and modern versions of OS X. <br>
+If you're using Windows you can either download it from [here](https://curl.haxx.se) or you can use [git bash](https://git.scm.com)
+
+Curl has got ton of options, to see all the different options you can try the below command
+
+```
+curl --help
+```
+
+In this post, we'll be working with [jsonplaceholder](https://jsonplaceholder.typicode.com),
+which is basically a fake online REST API that we can use for testing.
+
+
+
+## GET Request
+
+```
+curl https://jsonplaceholder.typicode.com/posts
+```
+
+if you'd like to see header information along with request's response
+use flag **'-i'**
+
+```
+curl -i https://jsonplaceholder.typicode.com/posts/3
+```
+![image](https://user-images.githubusercontent.com/8899419/47688851-1f0dfb00-dbdf-11e8-8e30-1966748a279d.png)
+
+in case if you just want to get only header, use **'--head'** or **'I'** flag
+```
+curl --head https://jsonplaceholder.typicode.com/posts/3
+```
+```
+curl -I https://jsonplaceholder.typicode.com/posts/3
+```
+![image](https://user-images.githubusercontent.com/8899419/47689029-f2a6ae80-dbdf-11e8-8689-952d3ea7431d.png)
+
+Often we wish to ouput the response contents into a file, for this we can use lowercase **'o'** or **'- -output'** flag.
+```
+curl -o filename.txt https://jsonplaceholder.typicode.com/posts/3
+```
+![image](https://user-images.githubusercontent.com/8899419/47689293-482f8b00-dbe1-11e8-9d10-f6f5adf3b5bb.png)
+
+
+## POST Request
+
+simple POST request
+
+```
+curl -X POST --data "title=foo&body=bar" https://jsonplaceholder.typicode.com/posts
+```
+-X : lets you change the HTTP method.
+-d, - -data : sends the specified data in POST request
+
+![image](https://user-images.githubusercontent.com/8899419/47686846-30eaa080-dbd5-11e8-8181-e784ef5a92e3.png)
+
+if you want to pass your data as regular JSON.
+
+```
+curl -X POST \
+  https://jsonplaceholder.typicode.com/posts \
+  -H 'Content-Type: application/json' \
+  -d '{
+        "title":"foo",
+        "body":"bar"
+      }'
+```
+
+
+this returns 
+```
+
+{
+  id: 101,
+  title: 'foo',
+  body: 'bar',
+  userId: 1
+}
+
+```
+
+
+## PUT Request
+
+simple PUT request
+
+```
+curl -X PUT -d "title=foo&body=bar" https://jsonplaceholder.typicode.com/posts/1
+```
+
+
+And if you want to pass your data as regular JSON.
+
+```
+curl -X PUT \
+  https://jsonplaceholder.typicode.com/posts \
+  -H 'Content-Type: application/json' \
+  -d '{
+        "title":"foo",
+        "body":"bar"
+      }'
+```
+
+
+![image](https://user-images.githubusercontent.com/8899419/47688318-8d04f300-dbdc-11e8-8b7d-18d082e3e3ec.png)
+
+
+## DELETE Request
+
+```
+curl -X DELETE https://jsonplaceholder.typicode.com/posts/1
+```
+
+## Download
+We can also download files with CURL, for that use uppercase **'O'**
+```
+curl -O https://jsonplaceholder.typicode.com/posts/3
+
+```
+
+## Run in Postman 
+
+If you want to try above requests in your Postman client<br>
+The below Run in Postman button imports and opens the collection of above [jsonplaceholder](https://jsonplaceholder.typicode.com) API endpoints directly in your Postman app. 
+
+<a href="https://app.getpostman.com/run-collection/18a1a1f4b9c55fc6e21d">
+  <img src="https://run.pstmn.io/button.svg" style="width:120px;height:32px; align:left">
+</a>
+<br>
+
+
+
+
+## Resources
+
+* [curl tutorial](http://curl.haxx.se/docs/httpscripting.html) - the official tutorial
