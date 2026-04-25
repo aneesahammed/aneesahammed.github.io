@@ -1,2 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rabbitmq on ^^</title><link>https://aneesahammed.github.io/tags/rabbitmq/</link><description>Recent content in rabbitmq on ^^</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 05 Nov 2018 11:36:55 +0100</lastBuildDate><atom:link href="https://aneesahammed.github.io/tags/rabbitmq/index.xml" rel="self" type="application/rss+xml"/><item><title>RabbitMQ 🐰</title><link>https://aneesahammed.github.io/posts/rabbitmq/</link><pubDate>Mon, 05 Nov 2018 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/rabbitmq/</guid><description>_______________ &amp;lt; Im not rabbit!! &amp;gt; --------------- \ ^__^ \ (oo)\_______ (__)\ )\/\ ||----w | || || Today at work, had to demonstrate a proof of concept (POC) related to message queues, so need to spin-up a rabbitmq server. &amp;ldquo;Play with Docker&amp;rdquo; come to the rescue. In couple of minutes environment is up and ready.
-docker run -d \ --hostname rabbit-host \ --name rabbit-container \ -p 80:15672 \ -p 5672:5672 \ -e RABBITMQ_DEFAULT_USER=&amp;quot;rabbit&amp;quot; \ -e RABBITMQ_DEFAULT_PASS=&amp;quot;carrot&amp;quot; \ rabbitmq:3-management PORT Description 15672 RabbitMQ Management console uses PORT 15672 for RabbitMQ version 3.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rabbitmq on Anees Ahammed</title><link>https://aneesahammed.github.io/tags/rabbitmq/</link><description>Recent content in Rabbitmq on Anees Ahammed</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 05 Nov 2018 11:36:55 +0100</lastBuildDate><atom:link href="https://aneesahammed.github.io/tags/rabbitmq/index.xml" rel="self" type="application/rss+xml"/><item><title>RabbitMQ 🐰</title><link>https://aneesahammed.github.io/posts/rabbitmq/</link><pubDate>Mon, 05 Nov 2018 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/rabbitmq/</guid><description>&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; _______________
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt; Im not rabbit!! &amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ---------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;\ &lt;/span&gt; ^__^
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;\ &lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;oo&lt;span style="color:#f92672"&gt;)&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\_&lt;/span&gt;______
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;__&lt;span style="color:#f92672"&gt;)&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\ &lt;/span&gt; &lt;span style="color:#f92672"&gt;)&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\/\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;||&lt;/span&gt;----w |
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;||&lt;/span&gt; &lt;span style="color:#f92672"&gt;||&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Today at work, had to demonstrate a proof of concept (POC) related to message queues, so need to spin-up a &lt;a href="https://www.rabbitmq.com/"&gt;rabbitmq&lt;/a&gt; server.
+&amp;ldquo;&lt;a href="../play-with-docker/"&gt;Play with Docker&lt;/a&gt;&amp;rdquo; come to the rescue. In couple of minutes environment is up and ready.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;docker run -d \
+--hostname rabbit-host \
+--name rabbit-container \
+-p 80:15672 \
+-p 5672:5672 \
+-e RABBITMQ_DEFAULT_USER=&amp;quot;rabbit&amp;quot; \
+-e RABBITMQ_DEFAULT_PASS=&amp;quot;carrot&amp;quot; \
+rabbitmq:3-management
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;PORT&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;15672&lt;/td&gt;
+ &lt;td&gt;RabbitMQ Management console uses PORT 15672 for RabbitMQ version 3.x .&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;55672&lt;/td&gt;
+ &lt;td&gt;RabbitMQ Management console pre 3.x&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5672&lt;/td&gt;
+ &lt;td&gt;Main RabbitMQ PORT and is defined in RABBITMQ_NODE_PORT environment variable&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;You can find more about environment RabbitMQ env variables here &lt;a href="https://www.rabbitmq.com/configure.html#define-environment-variables" title="More about RabbitMQ env vars"&gt;https://www.rabbitmq.com/configure.html#define-environment-variables&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

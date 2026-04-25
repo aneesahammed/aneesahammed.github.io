@@ -131,7 +131,7 @@ h1 {
 
 h2 {
     font: italic 19px/1.3em Georgia, serif;
-    color: #bbb;
+    color: #666;
 }
 
 .profile #wrapper {
@@ -164,7 +164,7 @@ h2 {
 .profile h2 {
     font-size: 20px;
     font-weight: 300;
-    color: #aaa;
+    color: #666;
     margin-top: 10px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-style: normal;
@@ -183,14 +183,14 @@ nav.main-nav a {
     top: 8px;
     right: 6px;
     padding: 8px 12px;
-    color: #5badf0;
+    color: #1f6fb8;
     font-size: 13px;
     line-height: 1.35;
     border-radius: 3px;
 }
 
 nav.main-nav a.cta {
-    background: #5badf0;
+    background: #1f6fb8;
     color: #fff;
     margin-left: 12px;
 }
@@ -205,9 +205,9 @@ nav.main-nav a.cta {
   }
   nav.main-nav a {
       top: 8px;
-      right: 6px;
-      padding: 8px 8px;
-      color: #5badf0;
+	  right: 6px;
+	  padding: 8px 8px;
+	  color: #1f6fb8;
       font-size: 13px;
       line-height: 1.35;
       border-radius: 3px;
@@ -246,12 +246,18 @@ nav.main-nav a.cta {
 
 a, #title, #post-list a:hover, #title:hover {
     text-decoration: none;
-    color: #5badf0;
-    color: #5694f1;
+    color: #1f6fb8;
 }
 
 p a {
-    color: #5694f1;
+    color: #1f6fb8;
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+}
+
+a:focus-visible {
+    outline: 2px solid #1f6fb8;
+    outline-offset: 3px;
 }
 
 
@@ -312,7 +318,7 @@ em, i {
 .description {
     float: right;
     font: italic 14px/1.4em Georgia, serif;
-    color: #aaa;
+    color: #666;
 }
 
 .home h1 {
@@ -324,7 +330,7 @@ em, i {
 
 .home h2 {
     font: italic 19px/1.3em Georgia, serif;
-    color: #bbb;
+    color: #666;
 }
 
 .post header {
@@ -348,7 +354,7 @@ em, i {
 .post h2.headline {
     font: normal 13px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: -5px 0 0 0;
-    color: #b2b9be;
+    color: #666;
     font-size: 13px;
     letter-spacing: 1px;
     display: inline-block;
@@ -357,7 +363,7 @@ em, i {
 .post h2.headline .tags {
     font: normal 13px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: -5px 0 40px 0;
-    color: #b2b9be;
+    color: #666;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -367,7 +373,7 @@ em, i {
 
 #post-list h2 {
     font: normal 17px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #aaa;
+    color: #666;
     margin-top: 2px;
 }
 
@@ -398,7 +404,7 @@ h6 {
 }
 
 p.small {
-    color: #bbb;
+    color: #666;
     font-size: 14px;
     line-height: 1.5;
     display: block;
@@ -466,6 +472,10 @@ img {
     border-radius: 3px;
 }
 
+#avatar {
+    object-fit: cover;
+}
+
 
 /* Made with Cactus Badge */
 
@@ -508,7 +518,7 @@ Post List
     position: relative;
     top: 1px;
     font: 300 17px/1.8 "Helvetica Neue", helvetica, Arial, sans-serif;
-    color: #bbb;
+    color: #666;
 }
 
 #post-list-footer {
@@ -527,9 +537,9 @@ Post List
 }
 
 #archive-link:hover {
-    background: #5694f1;
+    background: #1f6fb8;
     color: #fff;
-    box-shadow: 0 0 0 1px #5694f1;
+    box-shadow: 0 0 0 1px #1f6fb8;
 }
 
 #archive-link span {
@@ -568,7 +578,7 @@ Post List
 }
 
 #post-meta div span {
-    color: #aaa;
+    color: #666;
     font-weight: 500;
     display: block;
 }
@@ -682,11 +692,11 @@ h2.month {
     position: relative;
     top: 1px;
     font: 300 17px/1.7 "Helvetica Neue", helvetica, Arial, sans-serif;
-    color: #bbb;
+    color: #666;
 }
 
 #archive-list li a:hover, #archive-list li:hover .dates {
-    color: #5694f1;
+    color: #1f6fb8;
 }
 
 #post-meta img.avatar {
@@ -712,7 +722,7 @@ h2.month {
 
 #post-list.archive.readmore a {
     font: 400 16px/1.6 "Helvetica Neue", helvetica, Arial, sans-serif;
-    color: #5694f1;
+    color: #1f6fb8;
 }
 
 #post-list.archive.readmore a:hover {
@@ -721,10 +731,6 @@ h2.month {
 
 #post-list.archive.readmore .dates {
     font: 300 16px/1.6 "Helvetica Neue", helvetica, Arial, sans-serif;
-}
-
-#disqus_thread, #ds-thread {
-    margin-top: 100px;
 }
 
 #sharing a.facebook {
@@ -823,11 +829,11 @@ h2.month {
 }
 
 .archive .post-item:hover {
-    color: #5694f1;
+    color: #1f6fb8;
     transition: 0.3s ease-out;
 }
 .archive .post-item:hover .post-link {
-    color: #5694f1;
+    color: #1f6fb8;
 }
 
 .fa.fa-heart:hover {
@@ -874,6 +880,11 @@ a.symbol:hover {
   border-radius: 4px;
   overflow: hidden;
   font-family: 'Menlo', 'Monaco', Courier, monospace;
+}
+
+#toc a {
+  display: inline-block;
+  padding: 4px 0;
 }
 #TableOfContents {
   margin: 1em 0 0 0;
@@ -930,5 +941,5 @@ a.symbol:hover {
     font-size: .9em;
 }
 .page-tags ul li a:hover {
-    color: #5694f1;
+    color: #1f6fb8;
 }

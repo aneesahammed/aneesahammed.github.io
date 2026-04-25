@@ -1,6 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>devOps on ^^</title><link>https://aneesahammed.github.io/categories/devops/</link><description>Recent content in devOps on ^^</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 10 Mar 2026 23:52:00 +0000</lastBuildDate><atom:link href="https://aneesahammed.github.io/categories/devops/index.xml" rel="self" type="application/rss+xml"/><item><title>Why I Built Sentinel</title><link>https://aneesahammed.github.io/posts/sentinel/</link><pubDate>Tue, 10 Mar 2026 23:52:00 +0000</pubDate><guid>https://aneesahammed.github.io/posts/sentinel/</guid><description>I Got Tired of Losing Errors Across My Services, So I Built a Zero-Setup Error Tracker in Go I built Sentinel for a very simple reason: I was tired of losing errors in my own development setup.
-I was working across a FastAPI backend, Celery workers, Celery Beat, frontend, Docker, Redis, Postgres, and Qdrant. Every part of the system had its own logs. Every service had something to say. When things broke, the error was usually there somewhere, but finding it was often more painful than it should have been.</description></item><item><title>DIY home Security System with an Old iPhone</title><link>https://aneesahammed.github.io/posts/diy_home_security/</link><pubDate>Fri, 14 Nov 2025 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/diy_home_security/</guid><description>Building a DIY Home Security System with an Old iPhone and Some Determination Look, I&amp;rsquo;ll be honest with you - I was genuinely worried. Our new neighborhood has been seeing break-in attempts every other day. Car break-ins, people trying doorknobs at 2 AM&amp;hellip; the whole deal. I needed something to monitor my driveway at night, and I needed it fast.
-Commercial security cameras? They wanted €200+ per camera, plus subscription fees.</description></item><item><title>RabbitMQ 🐰</title><link>https://aneesahammed.github.io/posts/rabbitmq/</link><pubDate>Mon, 05 Nov 2018 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/rabbitmq/</guid><description>_______________ &amp;lt; Im not rabbit!! &amp;gt; --------------- \ ^__^ \ (oo)\_______ (__)\ )\/\ ||----w | || || Today at work, had to demonstrate a proof of concept (POC) related to message queues, so need to spin-up a rabbitmq server. &amp;ldquo;Play with Docker&amp;rdquo; come to the rescue. In couple of minutes environment is up and ready.
-docker run -d \ --hostname rabbit-host \ --name rabbit-container \ -p 80:15672 \ -p 5672:5672 \ -e RABBITMQ_DEFAULT_USER=&amp;quot;rabbit&amp;quot; \ -e RABBITMQ_DEFAULT_PASS=&amp;quot;carrot&amp;quot; \ rabbitmq:3-management PORT Description 15672 RabbitMQ Management console uses PORT 15672 for RabbitMQ version 3.</description></item><item><title>Play with docker 🐳</title><link>https://aneesahammed.github.io/posts/play-with-docker/</link><pubDate>Wed, 31 Oct 2018 10:36:55 +0000</pubDate><guid>https://aneesahammed.github.io/posts/play-with-docker/</guid><description>🐳 Prerequisite Make sure you have already created a Docker Hub account.
-PWD This post is about &amp;ldquo;Play with Docker&amp;rdquo; chrome-extension. Play with Docker(PWD) by itself is a simple, interactive and fun playground to learn Docker. This will give you a throwaway *nix shell, in which you can safely play with docker.
-The extension adds a &amp;ldquo;Try in PWD&amp;rdquo; button on any Docker Hub image page. Here is a short demo of the same.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevOps on Anees Ahammed</title><link>https://aneesahammed.github.io/categories/devops/</link><description>Recent content in DevOps on Anees Ahammed</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 10 Mar 2026 23:52:00 +0000</lastBuildDate><atom:link href="https://aneesahammed.github.io/categories/devops/index.xml" rel="self" type="application/rss+xml"/><item><title>Why I Built Sentinel</title><link>https://aneesahammed.github.io/posts/sentinel/</link><pubDate>Tue, 10 Mar 2026 23:52:00 +0000</pubDate><guid>https://aneesahammed.github.io/posts/sentinel/</guid><description>&lt;h2 id="i-got-tired-of-losing-errors-across-my-services-so-i-built-a-zero-setup-error-tracker-in-go"&gt;I Got Tired of Losing Errors Across My Services, So I Built a Zero-Setup Error Tracker in Go&lt;/h2&gt;
+&lt;p&gt;I built Sentinel for a very simple reason: I was tired of losing errors in my own development setup.&lt;/p&gt;
+&lt;p&gt;I was working across a FastAPI backend, Celery workers, Celery Beat, frontend, Docker, Redis, Postgres, and Qdrant. Every part of the system had its own logs. Every service had something to say. When things broke, the error was usually there somewhere, but finding it was often more painful than it should have been.&lt;/p&gt;</description></item><item><title>DIY home Security System with an Old iPhone</title><link>https://aneesahammed.github.io/posts/diy_home_security/</link><pubDate>Fri, 14 Nov 2025 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/diy_home_security/</guid><description>&lt;h2 id="building-a-diy-home-security-system-with-an-old-iphone-and-some-determination"&gt;Building a DIY Home Security System with an Old iPhone and Some Determination&lt;/h2&gt;
+&lt;p&gt;Look, I&amp;rsquo;ll be honest with you - I was genuinely worried. Our new neighborhood has been seeing break-in attempts every other day. Car break-ins, people trying doorknobs at 2 AM&amp;hellip; the whole deal. I needed something to monitor my driveway at night, and I needed it fast.&lt;/p&gt;
+&lt;p&gt;Commercial security cameras? They wanted €200+ per camera, plus subscription fees. Ring doorbell? Another subscription. I&amp;rsquo;m a developer - I build complex systems for a living. Surely I could figure this out myself, right?&lt;/p&gt;</description></item><item><title>🚀Hugo: Deploy with GitHub Actions</title><link>https://aneesahammed.github.io/posts/hugo-deploy-with-github-actions/</link><pubDate>Wed, 14 Apr 2021 23:00:00 +0000</pubDate><guid>https://aneesahammed.github.io/posts/hugo-deploy-with-github-actions/</guid><description>&lt;p&gt;Setting up automated deployment for my Hugo blog was one of those tasks I kept putting off. You know how it is – the manual process works, so why change it? But once I finally took the plunge with &lt;a href="https://github.com/features/actions" title="GitHub Actions"&gt;GitHub Actions&lt;/a&gt;, I wondered why I waited so long.&lt;/p&gt;
+&lt;p&gt;This blog you&amp;rsquo;re reading right now is built with &lt;a href="https://gohugo.io/" title="Hugo website"&gt;Hugo&lt;/a&gt; (a blazingly fast static site generator written in Go) and automatically deploys to &lt;a href="https://pages.github.com/" title="Github pages"&gt;GitHub Pages&lt;/a&gt; every time I commit a new post. Let me walk you through how I set it up.&lt;/p&gt;</description></item><item><title>DevOps at scale: GitHub</title><link>https://aneesahammed.github.io/posts/devops-practice-github/</link><pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate><guid>https://aneesahammed.github.io/posts/devops-practice-github/</guid><description>&lt;p&gt;I&amp;rsquo;m documenting some DevOps practices and personal recommendations we follow, especially around source control with Git and GitHub.&lt;/p&gt;
+&lt;p&gt;Working as a Lead DevOps Engineer at one of the biggest financial enterprises, &lt;a href="https://www.schellman.com/blog/2016/01/what-are-service-organization-controls-soc-reports/"&gt;SOC&lt;/a&gt; compliance is absolutely critical. Staying SOC compliant while scaling hundreds of projects and engineers? That&amp;rsquo;s nearly impossible without consistent team-wide practices and policies.&lt;/p&gt;
+&lt;h2 id="tldr"&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Have standard naming convention.&lt;/li&gt;
+&lt;li&gt;Follow trunk-based development.&lt;/li&gt;
+&lt;li&gt;Always protect the master &amp;amp; &lt;code&gt;develop&lt;/code&gt; branch.&lt;/li&gt;
+&lt;li&gt;Set up PR pipelines that trigger on each Pull Request&lt;/li&gt;
+&lt;li&gt;Ensure each commit message links to Rally/Jira&lt;/li&gt;
+&lt;li&gt;Have a .gitignore file &amp;amp; never commit dependencies into source control&lt;/li&gt;
+&lt;li&gt;Avoid committing secrets into source control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="standard-naming-convention"&gt;Standard Naming Convention&lt;/h2&gt;
+&lt;p&gt;The most important thing? Adopting consistent naming conventions across your entire organization. The first thing I did after joining this team was developing a &lt;strong&gt;web form&lt;/strong&gt; where you enter your project details, and it spits out the exact naming convention to follow for repository names, pipeline jobs, SonarQube dashboards, Artifactory, and cloud-foundry component names &amp;amp; routes.&lt;/p&gt;</description></item><item><title>RabbitMQ 🐰</title><link>https://aneesahammed.github.io/posts/rabbitmq/</link><pubDate>Mon, 05 Nov 2018 11:36:55 +0100</pubDate><guid>https://aneesahammed.github.io/posts/rabbitmq/</guid><description>&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; _______________
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;lt; Im not rabbit!! &amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ---------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;\ &lt;/span&gt; ^__^
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;\ &lt;/span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;oo&lt;span style="color:#f92672"&gt;)&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\_&lt;/span&gt;______
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;(&lt;/span&gt;__&lt;span style="color:#f92672"&gt;)&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\ &lt;/span&gt; &lt;span style="color:#f92672"&gt;)&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\/\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;||&lt;/span&gt;----w |
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;||&lt;/span&gt; &lt;span style="color:#f92672"&gt;||&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Today at work, had to demonstrate a proof of concept (POC) related to message queues, so need to spin-up a &lt;a href="https://www.rabbitmq.com/"&gt;rabbitmq&lt;/a&gt; server.
+&amp;ldquo;&lt;a href="../play-with-docker/"&gt;Play with Docker&lt;/a&gt;&amp;rdquo; come to the rescue. In couple of minutes environment is up and ready.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;docker run -d \
+--hostname rabbit-host \
+--name rabbit-container \
+-p 80:15672 \
+-p 5672:5672 \
+-e RABBITMQ_DEFAULT_USER=&amp;quot;rabbit&amp;quot; \
+-e RABBITMQ_DEFAULT_PASS=&amp;quot;carrot&amp;quot; \
+rabbitmq:3-management
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;PORT&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;15672&lt;/td&gt;
+ &lt;td&gt;RabbitMQ Management console uses PORT 15672 for RabbitMQ version 3.x .&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;55672&lt;/td&gt;
+ &lt;td&gt;RabbitMQ Management console pre 3.x&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5672&lt;/td&gt;
+ &lt;td&gt;Main RabbitMQ PORT and is defined in RABBITMQ_NODE_PORT environment variable&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;You can find more about environment RabbitMQ env variables here &lt;a href="https://www.rabbitmq.com/configure.html#define-environment-variables" title="More about RabbitMQ env vars"&gt;https://www.rabbitmq.com/configure.html#define-environment-variables&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Play with docker 🐳</title><link>https://aneesahammed.github.io/posts/play-with-docker/</link><pubDate>Wed, 31 Oct 2018 10:36:55 +0000</pubDate><guid>https://aneesahammed.github.io/posts/play-with-docker/</guid><description>&lt;h2 id="-prerequisite"&gt;🐳 Prerequisite&lt;/h2&gt;
+&lt;p&gt;Make sure you have already created a &lt;a href="https://hub.docker.com/"&gt;Docker Hub&lt;/a&gt; account.&lt;/p&gt;
+&lt;h2 id="pwd"&gt;PWD&lt;/h2&gt;
+&lt;p&gt;This post is about &amp;ldquo;Play with Docker&amp;rdquo; chrome-extension.
+&lt;a href="https://labs.play-with-docker.com/"&gt;Play with Docker(PWD)&lt;/a&gt; by itself is a simple, interactive and fun playground to learn Docker. This will give you a throwaway *nix shell, in which you can safely play with docker.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chrome.google.com/webstore/detail/play-with-docker/kibbhpioncdhmamhflnnmfonadknnoan?utm_source=chrome-ntp-icon"&gt;&lt;img src="https://cdn.rawgit.com/play-with-docker/stacks/cff22438/assets/images/button.png" alt="Try in Play with Docker button"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The extension adds a &amp;ldquo;&lt;strong&gt;Try in PWD&lt;/strong&gt;&amp;rdquo; button on any &lt;a href="https://hub.docker.com/"&gt;Docker Hub&lt;/a&gt; image page. Here is a short demo of the same.&lt;/p&gt;</description></item></channel></rss>
