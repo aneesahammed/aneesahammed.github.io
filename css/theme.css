@@ -1,0 +1,521 @@
+:root[data-theme="light"] {
+	color-scheme: light;
+	--blog-bg: #fff;
+	--blog-surface: #fff;
+	--blog-surface-muted: #fcfcfc;
+	--blog-text: #666;
+	--blog-heading: #333;
+	--blog-strong: #1e2025;
+	--blog-muted: #777;
+	--blog-soft: #999;
+	--blog-line: #eee;
+	--blog-line-strong: #dadadc;
+	--blog-link: #1f6fb8;
+	--blog-link-hover: #185f9f;
+	--blog-nav-bg: rgba(255, 255, 255, 0.9);
+	--blog-cta-bg: #1f6fb8;
+	--blog-cta-fg: #fff;
+	--blog-code-bg: #eee;
+	--blog-social: #cdd4da;
+	--blog-social-hover: #bcd4da;
+	--theme-toggle-strong: #333;
+	--theme-toggle-muted: #777;
+}
+
+:root[data-theme="dark"] {
+	color-scheme: dark;
+	--blog-bg: #111;
+	--blog-surface: #171717;
+	--blog-surface-muted: #1d1d1d;
+	--blog-text: #b8b8b8;
+	--blog-heading: #ededed;
+	--blog-strong: #f5f5f5;
+	--blog-muted: #a8a8a8;
+	--blog-soft: #858585;
+	--blog-line: #303030;
+	--blog-line-strong: #3c3c3c;
+	--blog-link: #8fbce8;
+	--blog-link-hover: #c8dfff;
+	--blog-nav-bg: rgba(17, 17, 17, 0.92);
+	--blog-cta-bg: #1f6fb8;
+	--blog-cta-fg: #fff;
+	--blog-code-bg: #222;
+	--blog-social: #555f68;
+	--blog-social-hover: #7c8790;
+	--theme-toggle-strong: #ededed;
+	--theme-toggle-muted: #a8a8a8;
+}
+
+html,
+body {
+	background: var(--blog-bg);
+}
+
+body {
+	color: var(--blog-text);
+	transition: background-color 180ms ease, color 180ms ease;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+	animation: none;
+	mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+	z-index: 1;
+}
+
+::view-transition-new(root) {
+	z-index: 2;
+	animation: vt-reveal 520ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes vt-reveal {
+	from {
+		clip-path: circle(0 at var(--vt-origin-x, 50%) var(--vt-origin-y, 50%));
+	}
+	to {
+		clip-path: circle(var(--vt-end-radius, 150%) at var(--vt-origin-x, 50%) var(--vt-origin-y, 50%));
+	}
+}
+
+nav.main-nav {
+	background: var(--blog-nav-bg);
+}
+
+a,
+#title,
+#post-list a:hover,
+#title:hover,
+p a,
+#post-list.archive.readmore a,
+.archive .post-item:hover,
+.archive .post-item:hover .post-link,
+#archive-list li a:hover,
+#archive-list li:hover .dates,
+.page-tags ul li a:hover {
+	color: var(--blog-link);
+}
+
+a:hover,
+p a:hover {
+	color: var(--blog-link-hover);
+}
+
+a:focus-visible,
+.theme-toggle:focus-visible {
+	outline: 2px solid var(--blog-link);
+	outline-offset: 3px;
+}
+
+nav.main-nav a.cta,
+#archive-link:hover {
+	background: var(--blog-cta-bg);
+	color: var(--blog-cta-fg);
+	box-shadow: 0 0 0 1px var(--blog-cta-bg);
+}
+
+nav.main-nav a {
+	color: var(--blog-link);
+}
+
+nav.main-nav a:hover {
+	color: var(--blog-link-hover);
+}
+
+.theme-toggle {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 34px;
+	height: 34px;
+	padding: 0;
+	border: 0;
+	border-radius: 3px;
+	background: transparent;
+	color: var(--blog-heading);
+	cursor: pointer;
+	transition:
+		background-color 150ms ease,
+		color 150ms ease,
+		transform 150ms ease;
+}
+
+.theme-toggle:hover {
+	background: color-mix(in srgb, var(--blog-heading) 8%, transparent);
+}
+
+.theme-toggle:active {
+	transform: scale(0.94);
+}
+
+#themeIconContrast {
+	transition: transform 180ms ease;
+}
+
+:root[data-theme="dark"] #themeIconContrast {
+	transform: scaleX(-1);
+}
+
+h1,
+.home h1,
+.post h1,
+.post h2,
+h3,
+h4,
+h5,
+#post-list a,
+#archive-list a,
+#title,
+.photo-kicker,
+.mono-caption h2,
+.notes-hero h1,
+.notes-month-heading,
+.note-day,
+.notes-breadcrumb a {
+	color: var(--blog-heading);
+}
+
+b,
+strong,
+#post-meta div span.dark {
+	color: var(--blog-strong);
+}
+
+h2,
+.home h2,
+.post h2.headline,
+.post h2.headline .tags,
+#post-list h2,
+h6,
+p.small,
+.description,
+#post-list .dates,
+#archive-list .dates,
+.archive .post-time,
+.archive .post-link,
+.page-tags ul li a,
+#post-meta div span,
+.photo-intro p:last-child,
+.mono-caption p,
+.mono-empty,
+.notes-description,
+.note-time,
+.note-content,
+.note-content p {
+	color: var(--blog-text);
+}
+
+.notes-breadcrumb,
+.projects-hero .notes-breadcrumb,
+.mono-caption time,
+.note-location,
+.note-tags li {
+	color: var(--blog-soft);
+}
+
+blockquote {
+	border-left-color: var(--blog-line);
+}
+
+hr {
+	background: var(--blog-line);
+}
+
+table td,
+td,
+tr > td,
+h2.month,
+#post-list-footer,
+#post-meta,
+.photo-intro,
+.notes-month-heading::after,
+.notes-list::before,
+.note-row + .note-row {
+	border-color: var(--blog-line);
+}
+
+tr:nth-child(odd) > td {
+	background: var(--blog-surface-muted);
+}
+
+thead th,
+th {
+	color: var(--blog-heading);
+	border-bottom-color: var(--blog-line-strong);
+}
+
+#archive-link {
+	box-shadow: 0 0 0 1px var(--blog-line-strong);
+}
+
+#post-meta img.avatar {
+	box-shadow: 0 0 0 3px var(--blog-bg), 0 0 0 4px var(--blog-line);
+}
+
+code,
+pre,
+#TableOfContents a code {
+	background-color: var(--blog-code-bg);
+}
+
+#toc {
+	color: var(--blog-muted);
+	background: var(--blog-surface);
+	box-shadow: inset 0 0 0 1px var(--blog-line);
+}
+
+a.symbol {
+	color: var(--blog-social);
+}
+
+a.symbol:hover {
+	color: var(--blog-social-hover);
+}
+
+body.photos-page {
+	background: var(--blog-bg);
+	color: var(--blog-text);
+}
+
+.mono-frame img,
+.mono-frame video {
+	background: var(--blog-surface-muted);
+}
+
+body.notes-page {
+	--notes-bg: var(--blog-bg);
+	--notes-surface: var(--blog-bg);
+	--notes-text: var(--blog-heading);
+	--notes-body: color-mix(in srgb, var(--blog-heading) 88%, var(--blog-text));
+	--notes-muted: var(--blog-text);
+	--notes-soft: var(--blog-soft);
+	--notes-secondary: var(--blog-muted);
+	--notes-line: var(--blog-line);
+	--notes-line-soft: color-mix(in srgb, var(--blog-line) 72%, transparent);
+	--notes-pin: var(--blog-soft);
+	--notes-link: var(--blog-heading);
+	background: var(--blog-bg);
+}
+
+body.notes-page .note-content,
+body.notes-page .note-content p {
+	color: var(--notes-body);
+}
+
+body.notes-page .note-content p.note-location {
+	color: var(--blog-text);
+	font: 300 12px/1.4 "Helvetica Neue", helvetica, Arial, sans-serif;
+}
+
+body.notes-page .note-content p.note-location span {
+	color: inherit;
+	font: inherit;
+}
+
+body.notes-page .note-tags li {
+	color: var(--notes-secondary);
+}
+
+body.projects-page {
+	--projects-body: var(--blog-text);
+	background: var(--blog-bg);
+	color: var(--blog-text);
+}
+
+.projects-journal {
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 48px 24px 110px;
+	font: 300 16px/1.65 "Helvetica Neue", helvetica, Arial, sans-serif;
+	color: var(--blog-text);
+}
+
+.projects-content#wrapper {
+	max-width: 640px;
+	margin: 0;
+	padding: 0;
+}
+
+.projects-content #post-body {
+	color: var(--projects-body);
+	font: 400 16px/1.65 "Helvetica Neue", helvetica, Arial, sans-serif;
+}
+
+.projects-content #post-body h2:first-child {
+	margin-top: 0;
+}
+
+.projects-content #post-body h2 {
+	margin: 54px 0 22px;
+	color: var(--blog-heading);
+	font: 700 20px/1.2 "Helvetica Neue", helvetica, Arial, sans-serif;
+	letter-spacing: 0;
+}
+
+.projects-content #post-body .project-section > h2 {
+	margin-top: 0;
+}
+
+.projects-content #post-body .project-section + .project-section {
+	margin-top: 58px;
+	padding-top: 42px;
+	border-top: 1px solid var(--blog-line);
+}
+
+.projects-content #post-body .project-section-intro {
+	max-width: 560px;
+	margin: -8px 0 26px;
+	color: var(--blog-muted);
+	font: 300 14px/1.65 "Helvetica Neue", helvetica, Arial, sans-serif;
+}
+
+.projects-content #post-body .project-entry {
+	position: relative;
+	margin: 0;
+}
+
+.projects-content #post-body .project-entry + .project-entry {
+	margin-top: 30px;
+	padding-top: 28px;
+	border-top: 1px solid var(--blog-line);
+}
+
+.projects-content #post-body .project-entry--initiative + .project-entry--initiative,
+.projects-content #post-body .project-entry--compact + .project-entry--compact {
+	margin-top: 22px;
+	padding-top: 22px;
+}
+
+.projects-content #post-body .project-count {
+	margin: 0 0 6px;
+	color: var(--blog-soft);
+	font: 700 11px/1.4 "Helvetica Neue", helvetica, Arial, sans-serif;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+.projects-content #post-body .project-tagline {
+	color: var(--blog-heading);
+	font-weight: 500;
+}
+
+.projects-content #post-body h3 {
+	margin: 30px 0 8px;
+	color: var(--blog-heading);
+	font: 700 17px/1.3 "Helvetica Neue", helvetica, Arial, sans-serif;
+	letter-spacing: 0;
+}
+
+.projects-content #post-body h3 a {
+	color: var(--blog-link);
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: border-color 160ms ease, color 160ms ease;
+}
+
+.projects-content #post-body h3 a:hover,
+.projects-content #post-body h3 a:focus-visible {
+	color: var(--blog-link-hover);
+	border-bottom-color: currentColor;
+}
+
+.projects-content #post-body h3 a[target="_blank"]::after {
+	content: " ↗";
+	display: inline-block;
+	margin-left: 4px;
+	font-size: 0.78em;
+	font-weight: 300;
+	color: var(--blog-soft);
+	transform: translateY(-1px);
+}
+
+.projects-content #post-body .project-entry h3 {
+	margin-top: 0;
+}
+
+.projects-content #post-body .project-meta {
+	margin: 0 0 12px;
+	color: var(--blog-soft);
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	line-height: 1.4;
+}
+
+.projects-content #post-body .project-meta > span + span::before {
+	content: "·";
+	display: inline-block;
+	margin: 0 8px 0 6px;
+	opacity: 0.55;
+}
+
+.projects-content #post-body .project-stack {
+	margin: 10px 0 0;
+	color: var(--blog-muted);
+	font: 300 12px/1.45 "Helvetica Neue", helvetica, Arial, sans-serif;
+	letter-spacing: 0;
+}
+
+.projects-content #post-body p,
+.projects-content #post-body li {
+	color: var(--projects-body);
+	font: inherit;
+}
+
+.projects-content #post-body p {
+	margin: 0 0 12px;
+	line-height: 1.65;
+}
+
+.projects-content #post-body strong {
+	color: var(--blog-strong);
+	font-weight: 700;
+}
+
+.projects-content #post-body ul {
+	margin: 8px 0 16px 20px;
+	padding: 0;
+}
+
+.projects-content #post-body li {
+	margin: 6px 0;
+}
+
+.projects-content #post-body hr {
+	margin: 44px 0;
+	background: var(--blog-line);
+}
+
+@media (max-width: 760px) {
+	.projects-journal {
+		padding: 38px 18px 88px;
+	}
+
+	.projects-content #post-body {
+		font-size: 16px;
+	}
+
+	.projects-content #post-body h2 {
+		font-size: 19px;
+	}
+
+	.projects-content #post-body h3 {
+		font-size: 17px;
+		margin-top: 28px;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	::view-transition-new(root) {
+		animation: none;
+	}
+
+	body,
+	.theme-toggle,
+	#themeIconContrast {
+		transition: none;
+	}
+}
