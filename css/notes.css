@@ -165,6 +165,7 @@ body.notes-page {
 	font: 400 17px/1.72 var(--notes-reading-font);
 	color: var(--notes-body);
 	letter-spacing: 0;
+	white-space: pre-line;
 }
 
 .note-content p {
