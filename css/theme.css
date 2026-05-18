@@ -490,6 +490,16 @@ body.projects-page {
 }
 
 @media (max-width: 760px) {
+	#post-list .dates {
+		display: block;
+		float: none;
+		position: static;
+		margin: 0 0 8px;
+		color: var(--blog-soft);
+		font: 300 15px/1.45 "Helvetica Neue", helvetica, Arial, sans-serif;
+		letter-spacing: 0;
+	}
+
 	.projects-journal {
 		padding: 38px 18px 88px;
 	}
