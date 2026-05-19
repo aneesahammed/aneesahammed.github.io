@@ -26,13 +26,28 @@
 
 	function openPhoto(trigger) {
 		lastFocus = trigger;
-		image.src = trigger.dataset.photoSrc || trigger.href;
+		var src = trigger.dataset.photoSrc || trigger.href;
 		image.alt = trigger.dataset.photoAlt || trigger.dataset.photoTitle || "";
 		setText(title, trigger.dataset.photoTitle);
 		setText(note, trigger.dataset.photoNote);
 		setText(location, trigger.dataset.photoLocation);
 		setText(date, trigger.dataset.photoDate);
-		dialog.showModal();
+		image.src = src;
+
+		function show() {
+			if (!dialog.open) {
+				dialog.showModal();
+			}
+		}
+
+		if (typeof image.decode === "function") {
+			image.decode().then(show, show);
+		} else if (image.complete && image.naturalWidth > 0) {
+			show();
+		} else {
+			image.addEventListener("load", show, { once: true });
+			image.addEventListener("error", show, { once: true });
+		}
 	}
 
 	function closePhoto() {
